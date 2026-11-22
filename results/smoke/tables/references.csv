@@ -1,0 +1,5 @@
+maze,policy,success_pairs,success_through,success_avoid,success_partial,success_endpoint,success_benchmark,fast_success_pairs,fast_success_through,fast_success_avoid,fast_success_benchmark,return_benchmark,return_pairs,final_distance_pairs,first_success_mean_successes_pairs,first_success_median_censored_pairs,path_length_successes_pairs
+umaze,random,0.16666666666666666,0.25,0.0,,0.0,0.25,0.0,0.0,0.0,0.0,5.75,5.583333333333333,1.8852821268021867,264.0,,3.432277310660571
+umaze,planner_privileged,1.0,1.0,1.0,,1.0,1.0,0.8333333333333334,0.75,1.0,0.75,227.5,237.0,4.1696975061242866e-08,64.0,59.5,2.6315344055573253
+medium,random,0.08333333333333333,0.0,0.3333333333333333,0.0,0.0,0.25,0.0,0.0,0.0,0.0,30.75,6.833333333333333,3.7159897377282185,389.0,,3.792587895276472
+medium,planner_privileged,1.0,1.0,1.0,1.0,1.0,1.0,0.9166666666666666,0.8571428571428571,1.0,0.75,449.25,482.25,9.194671990256291e-08,118.75,114.0,4.969291225039329

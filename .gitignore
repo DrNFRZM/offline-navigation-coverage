@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+dist/
+
+# Downloaded datasets and processed caches (re-created by `offnav audit`)
+data/
+
+# Checkpoints and other large training artifacts (re-created by training)
+artifacts/
+
+# Machine-specific notes and copy-verification records (contain local paths)
+LOCAL_SETUP.md
+local_records/
+
+# Local backup snapshots taken before the final review
+backups/
+
+# Public release copies built by scripts/export_public.py
+release/
+
+# Temporary and log files created outside the experiment records
+*.tmp
+*.bak
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

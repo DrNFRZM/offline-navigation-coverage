@@ -1,0 +1,62 @@
+{
+  "tag": "umaze__restricted_severe__bc__s0",
+  "suite": "final",
+  "maze": "umaze",
+  "horizon": 300,
+  "n_episodes": 16,
+  "env_steps": 4800,
+  "eval_seconds": 1.802296000001661,
+  "summary": {
+    "pairs": {
+      "n_episodes": 12,
+      "success_rate": 1.0,
+      "success_rate_third_horizon": 0.6666666666666666,
+      "mean_return": 73.41666666666667,
+      "mean_final_distance": 0.7620435377857239,
+      "mean_first_success_step_successes": 76.75,
+      "median_first_success_step_censored": 77.5,
+      "mean_path_length_successes": 2.703490086732302
+    },
+    "benchmark": {
+      "n_episodes": 4,
+      "success_rate": 0.75,
+      "success_rate_third_horizon": 0.25,
+      "mean_return": 44.0,
+      "mean_final_distance": 1.4022468702654933,
+      "mean_first_success_step_successes": 94.33333333333333,
+      "median_first_success_step_censored": 120.0,
+      "mean_path_length_successes": 3.0896213852881202
+    },
+    "pairs_through": {
+      "n_episodes": 8,
+      "success_rate": 1.0,
+      "success_rate_third_horizon": 0.5,
+      "mean_return": 79.125,
+      "mean_final_distance": 0.6874041749934228,
+      "mean_first_success_step_successes": 93.625,
+      "median_first_success_step_censored": 98.0,
+      "mean_path_length_successes": 3.417420164988295
+    },
+    "pairs_avoid": {
+      "n_episodes": 3,
+      "success_rate": 1.0,
+      "success_rate_third_horizon": 1.0,
+      "mean_return": 76.0,
+      "mean_final_distance": 0.8150155432728704,
+      "mean_first_success_step_successes": 46.0,
+      "median_first_success_step_censored": 45.0,
+      "mean_path_length_successes": 1.3007770287955533
+    },
+    "pairs_endpoint": {
+      "n_episodes": 1,
+      "success_rate": 1.0,
+      "success_rate_third_horizon": 1.0,
+      "mean_return": 20.0,
+      "mean_final_distance": 1.200242423662694,
+      "mean_first_success_step_successes": 34.0,
+      "median_first_success_step_censored": 34.0,
+      "mean_path_length_successes": 1.2001886344946089
+    }
+  },
+  "finished_utc": "2026-11-21T20:52:56+00:00"
+}

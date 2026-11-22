@@ -1,0 +1,12 @@
+{
+  "checks": 151,
+  "problems": [],
+  "ok": true,
+  "run_states": {
+    "legacy": 20
+  },
+  "reference_states": {
+    "legacy": 4
+  },
+  "note": "legacy = version-1 records (no training-code digest / evaluation fingerprint) whose fingerprints and evaluation cases were re-derived from the current configuration and match; unverifiable = checkpoint absent, so records cannot be checked against final.pt"
+}

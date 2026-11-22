@@ -1,0 +1,23 @@
+{
+  "holdout_all": {
+    "n": 49949,
+    "action_mse": 0.6153483390808105,
+    "action_nll": 2.4163012504577637
+  },
+  "holdout_region": {
+    "n": 3182,
+    "action_mse": 0.6304889917373657,
+    "action_nll": 2.435457229614258
+  },
+  "holdout_outside_region": {
+    "n": 46767,
+    "action_mse": 0.6143182516098022,
+    "action_nll": 2.4149978160858154
+  },
+  "train_subsample": {
+    "n": 5000,
+    "action_mse": 0.6118152141571045,
+    "action_nll": 2.412317991256714
+  },
+  "fingerprint": "98686147b98399d1"
+}

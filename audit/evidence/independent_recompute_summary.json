@@ -1,0 +1,12 @@
+{
+ "runs_recomputed": 100,
+ "max_abs_deviation_vs_seed_level_csv": 2.842170943040401e-14,
+ "max_abs_deviation_vs_reanalysis_csv": 5.684341886080802e-14,
+ "paired_rows_recomputed": 166,
+ "claims_checked": 26,
+ "claims_ok": 26,
+ "run_records_checked": 100,
+ "checkpoints_checked": 124,
+ "problems": [],
+ "ok": true
+}

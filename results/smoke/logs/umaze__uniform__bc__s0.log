@@ -1,0 +1,57 @@
+# 2026-11-21T20:51:40+00:00 C:\Users\sacro\AppData\Local\Temp\claude\2f5fd05f07ddb88c\c29ddd93-5f9c-4eae-bf71-0a457760f436\scratchpad\venv\Scripts\python.exe -m offnav.cli train --config configs/smoke.json --maze umaze --condition uniform --method bc --seed 0
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+{"run_id": "umaze__uniform__bc__s0", "status": "trained", "train_seconds": 0.3649957000016002, "updates_per_second": 1643.8549823939557}
+# 2026-11-21T20:51:48+00:00 C:\Users\sacro\AppData\Local\Temp\claude\2f5fd05f07ddb88c\c29ddd93-5f9c-4eae-bf71-0a457760f436\scratchpad\venv\Scripts\python.exe -m offnav.cli evaluate --config configs/smoke.json --maze umaze --condition uniform --method bc --seed 0 --suite final
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+{
+ "pairs": {
+  "n_episodes": 12,
+  "success_rate": 1.0,
+  "success_rate_third_horizon": 0.6666666666666666,
+  "mean_return": 98.75,
+  "mean_final_distance": 0.5402713289911804,
+  "mean_first_success_step_successes": 78.33333333333333,
+  "median_first_success_step_censored": 77.5,
+  "mean_path_length_successes": 2.8591672375500194
+ },
+ "benchmark": {
+  "n_episodes": 4,
+  "success_rate": 1.0,
+  "success_rate_third_horizon": 0.5,
+  "mean_return": 65.25,
+  "mean_final_distance": 0.6658304612777889,
+  "mean_first_success_step_successes": 95.5,
+  "median_first_success_step_censored": 97.0,
+  "mean_path_length_successes": 3.112380041242026
+ },
+ "pairs_through": {
+  "n_episodes": 8,
+  "success_rate": 1.0,
+  "success_rate_third_horizon": 0.5,
+  "mean_return": 108.25,
+  "mean_final_distance": 0.367602487541827,
+  "mean_first_success_step_successes": 97.625,
+  "median_first_success_step_censored": 104.0,
+  "mean_path_length_successes": 3.6746445931559233
+ },
+ "pairs_avoid": {
+  "n_episodes": 3,
+  "success_rate": 1.0,
+  "success_rate_third_horizon": 1.0,
+  "mean_return": 97.66666666666667,
+  "mean_final_distance": 0.8067587282633566,
+  "mean_first_success_step_successes": 41.333333333333336,
+  "median_first_success_step_censored": 45.0,
+  "mean_path_length_successes": 1.259625402781715
+ },
+ "pairs_endpoint": {
+  "n_episodes": 1,
+  "success_rate": 1.0,
+  "success_rate_third_horizon": 1.0,
+  "mean_return": 26.0,
+  "mean_final_distance": 1.1221598627694769,
+  "mean_first_success_step_successes": 35.0,
+  "median_first_success_step_censored": 35.0,
+  "mean_path_length_successes": 1.133973897007699
+ }
+}

@@ -1,0 +1,1501 @@
+{
+  "maze": "umaze",
+  "dataset_id": "D4RL/pointmaze/umaze-v2",
+  "dataset_sha256": "1d4cb41832c2b5792c5465bf54c66c8a0d590c6523b4f2156e19e2fc39bd3e4a",
+  "n_recorded_transitions": 1000000,
+  "n_goal_switch_excluded": 13205,
+  "holdout": {
+    "config": {
+      "block_starts": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "block_fraction": 0.01,
+      "gap_steps": 1000
+    },
+    "n_holdout_transitions": 49582,
+    "sha256": "a931116f1fc9c2ac40be0854df5846944de706f21d4747f2c859bab342005148",
+    "n_gap_transitions": 10653,
+    "n_holdout_episodes": 642,
+    "n_gap_episodes": 130
+  },
+  "eligible_pool": {
+    "n": 926690,
+    "cell_counts": {
+      "1-1": 72075,
+      "1-2": 121845,
+      "1-3": 176454,
+      "2-3": 173431,
+      "3-1": 70688,
+      "3-2": 123451,
+      "3-3": 188746
+    }
+  },
+  "region": {
+    "cell": [
+      2,
+      3
+    ],
+    "center_xy": [
+      1.0,
+      0.0
+    ],
+    "betweenness": 18.0,
+    "betweenness_ranking": [
+      {
+        "cell": [
+          2,
+          3
+        ],
+        "betweenness": 18.0
+      },
+      {
+        "cell": [
+          1,
+          3
+        ],
+        "betweenness": 16.0
+      },
+      {
+        "cell": [
+          3,
+          3
+        ],
+        "betweenness": 16.0
+      },
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "betweenness": 10.0
+      },
+      {
+        "cell": [
+          3,
+          2
+        ],
+        "betweenness": 10.0
+      },
+      {
+        "cell": [
+          1,
+          1
+        ],
+        "betweenness": 0.0
+      }
+    ],
+    "is_articulation_point": true,
+    "n_pool_transitions_in_region": 173431,
+    "retention": 0.02,
+    "n_retained": 3469,
+    "severe_retention": 0.002,
+    "n_retained_severe": 347
+  },
+  "seeds": {
+    "0": {
+      "data_seed": 10000,
+      "conditions": {
+        "full": {
+          "sha256": "bef72be4cce694234869e78ec50a246e961e499c18573cc7441190aa90129b80",
+          "n": 926690,
+          "stats": {
+            "n_transitions": 926690,
+            "n_region_transitions": 173431,
+            "region_fraction": 0.18715104295934995,
+            "region_fraction_of_reference": 1.0,
+            "occupied_bins_ge1": 482,
+            "occupied_bins_ge5": 465,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              173431,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 12288,
+            "success_frequency": 0.013260098174214363,
+            "goal_cell_counts": [
+              166990,
+              125607,
+              115640,
+              109887,
+              166747,
+              133676,
+              108143
+            ],
+            "goal_cell_tv_distance_to_reference": 0.0,
+            "cell_occupancy_tv_distance_to_reference": 0.0,
+            "action_mean": [
+              0.003966875374317169,
+              -0.0021261293441057205
+            ],
+            "action_std": [
+              0.8505333662033081,
+              0.7885130047798157
+            ],
+            "action_saturated_frac": 0.8772912192858453,
+            "action_hist_tv_distance_to_reference": 0.0,
+            "region_action_mean_abs": [
+              0.5091391205787659,
+              0.9019690155982971
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 4671,
+            "region_crossings_partly_retained": 4671
+          }
+        },
+        "restricted": {
+          "sha256": "a8407b10e875349e4ec2ee3c564e1924fb8b1e17038c4fda4ce8d7d23830ea01",
+          "n": 756728,
+          "stats": {
+            "n_transitions": 756728,
+            "n_region_transitions": 3469,
+            "region_fraction": 0.004584209914262456,
+            "region_fraction_of_reference": 0.020002191073106884,
+            "occupied_bins_ge1": 470,
+            "occupied_bins_ge5": 428,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              3469,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 10265,
+            "success_frequency": 0.013564979657530785,
+            "goal_cell_counts": [
+              137965,
+              98590,
+              88512,
+              105711,
+              138225,
+              105857,
+              81868
+            ],
+            "goal_cell_tv_distance_to_reference": 0.02595518929256988,
+            "cell_occupancy_tv_distance_to_reference": 0.18256683304508747,
+            "action_mean": [
+              -0.0004796854336746037,
+              8.683888881932944e-05
+            ],
+            "action_std": [
+              0.8959425687789917,
+              0.7525802850723267
+            ],
+            "action_saturated_frac": 0.8886429470034147,
+            "action_hist_tv_distance_to_reference": 0.09504923304074901,
+            "region_action_mean_abs": [
+              0.499910831451416,
+              0.9017111659049988
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 0,
+            "region_crossings_partly_retained": 1827
+          }
+        },
+        "uniform": {
+          "sha256": "72bc7e018574d7c413118f220b1477b5d894727d2b4b32b9b5042200f5fa7c5a",
+          "n": 756728,
+          "stats": {
+            "n_transitions": 756728,
+            "n_region_transitions": 141491,
+            "region_fraction": 0.1869773551394953,
+            "region_fraction_of_reference": 0.8158345393845391,
+            "occupied_bins_ge1": 480,
+            "occupied_bins_ge5": 460,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              58959,
+              99664,
+              144157,
+              141491,
+              57631,
+              100812,
+              154014
+            ],
+            "success_transitions": 10052,
+            "success_frequency": 0.013283505104482174,
+            "goal_cell_counts": [
+              136468,
+              102526,
+              94322,
+              89762,
+              136304,
+              109177,
+              88169
+            ],
+            "goal_cell_tv_distance_to_reference": 0.0003861551704872554,
+            "cell_occupancy_tv_distance_to_reference": 0.0004470087203524639,
+            "action_mean": [
+              0.004692140035331249,
+              -0.002421112498268485
+            ],
+            "action_std": [
+              0.8505388498306274,
+              0.7883668541908264
+            ],
+            "action_saturated_frac": 0.8770998297935322,
+            "action_hist_tv_distance_to_reference": 0.0016938938899377174,
+            "region_action_mean_abs": [
+              0.5097437500953674,
+              0.901946485042572
+            ],
+            "through_route_transitions": 256028,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 37,
+            "region_crossings_partly_retained": 4671
+          }
+        },
+        "restricted_severe": {
+          "sha256": "2f0db2217db5ce82d2e55e5156e96a21ef61c5a693f5d806116508137b080dc6",
+          "n": 753606,
+          "stats": {
+            "n_transitions": 753606,
+            "n_region_transitions": 347,
+            "region_fraction": 0.00046045280955831034,
+            "region_fraction_of_reference": 0.0020007957054967106,
+            "occupied_bins_ge1": 436,
+            "occupied_bins_ge5": 408,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              347,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 10232,
+            "success_frequency": 0.013577386736869812,
+            "goal_cell_counts": [
+              137432,
+              98073,
+              88009,
+              105642,
+              137716,
+              105363,
+              81371
+            ],
+            "goal_cell_tv_distance_to_reference": 0.02657168179397383,
+            "cell_occupancy_tv_distance_to_reference": 0.1866905901497916,
+            "action_mean": [
+              -0.0005788987618871033,
+              0.00012909916404169053
+            ],
+            "action_std": [
+              0.8969671130180359,
+              0.7517593502998352
+            ],
+            "action_saturated_frac": 0.8889512556959472,
+            "action_hist_tv_distance_to_reference": 0.09724682586584052,
+            "region_action_mean_abs": [
+              0.49759191274642944,
+              0.9212028384208679
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 0,
+            "region_crossings_partly_retained": 232
+          }
+        },
+        "uniform_severe": {
+          "sha256": "3b2c7cbcd77c796775945e29b1ae04f55e343bbaf2bf412f0d391abbbbda6150",
+          "n": 753606,
+          "stats": {
+            "n_transitions": 753606,
+            "n_region_transitions": 141013,
+            "region_fraction": 0.18711767156843231,
+            "region_fraction_of_reference": 0.8130784000553535,
+            "occupied_bins_ge1": 482,
+            "occupied_bins_ge5": 462,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              58730,
+              99006,
+              143451,
+              141013,
+              57426,
+              100507,
+              153473
+            ],
+            "success_transitions": 9933,
+            "success_frequency": 0.01318062748759985,
+            "goal_cell_counts": [
+              135785,
+              102159,
+              93987,
+              89242,
+              135865,
+              108702,
+              87866
+            ],
+            "goal_cell_tv_distance_to_reference": 0.0003647579302676618,
+            "cell_occupancy_tv_distance_to_reference": 0.0003061014891746622,
+            "action_mean": [
+              0.003249587956815958,
+              -0.0015729611041024327
+            ],
+            "action_std": [
+              0.8507626056671143,
+              0.7882687449455261
+            ],
+            "action_saturated_frac": 0.8773470487230728,
+            "action_hist_tv_distance_to_reference": 0.0015031595860217676,
+            "region_action_mean_abs": [
+              0.5093711614608765,
+              0.9019354581832886
+            ],
+            "through_route_transitions": 254487,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 21,
+            "region_crossings_partly_retained": 4671
+          }
+        }
+      }
+    },
+    "1": {
+      "data_seed": 10001,
+      "conditions": {
+        "full": {
+          "sha256": "bef72be4cce694234869e78ec50a246e961e499c18573cc7441190aa90129b80",
+          "n": 926690,
+          "stats": {
+            "n_transitions": 926690,
+            "n_region_transitions": 173431,
+            "region_fraction": 0.18715104295934995,
+            "region_fraction_of_reference": 1.0,
+            "occupied_bins_ge1": 482,
+            "occupied_bins_ge5": 465,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              173431,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 12288,
+            "success_frequency": 0.013260098174214363,
+            "goal_cell_counts": [
+              166990,
+              125607,
+              115640,
+              109887,
+              166747,
+              133676,
+              108143
+            ],
+            "goal_cell_tv_distance_to_reference": 0.0,
+            "cell_occupancy_tv_distance_to_reference": 0.0,
+            "action_mean": [
+              0.003966875374317169,
+              -0.0021261293441057205
+            ],
+            "action_std": [
+              0.8505333662033081,
+              0.7885130047798157
+            ],
+            "action_saturated_frac": 0.8772912192858453,
+            "action_hist_tv_distance_to_reference": 0.0,
+            "region_action_mean_abs": [
+              0.5091391205787659,
+              0.9019690155982971
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 4671,
+            "region_crossings_partly_retained": 4671
+          }
+        },
+        "restricted": {
+          "sha256": "e312c24a04cd64fb87f71e9fdc8d4fbef836ab016fb9d7268ddef342bc8496d1",
+          "n": 756728,
+          "stats": {
+            "n_transitions": 756728,
+            "n_region_transitions": 3469,
+            "region_fraction": 0.004584209914262456,
+            "region_fraction_of_reference": 0.020002191073106884,
+            "occupied_bins_ge1": 470,
+            "occupied_bins_ge5": 429,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              3469,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 10279,
+            "success_frequency": 0.013583480380475521,
+            "goal_cell_counts": [
+              138003,
+              98613,
+              88491,
+              105715,
+              138228,
+              105801,
+              81877
+            ],
+            "goal_cell_tv_distance_to_reference": 0.026014655838012907,
+            "cell_occupancy_tv_distance_to_reference": 0.18256683304508747,
+            "action_mean": [
+              -0.00042993537499569356,
+              0.00011792829900514334
+            ],
+            "action_std": [
+              0.895969033241272,
+              0.7525727152824402
+            ],
+            "action_saturated_frac": 0.8886508758761404,
+            "action_hist_tv_distance_to_reference": 0.0950968062771034,
+            "region_action_mean_abs": [
+              0.5079672336578369,
+              0.9014442563056946
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 0,
+            "region_crossings_partly_retained": 1842
+          }
+        },
+        "uniform": {
+          "sha256": "225c72431c7214a4403b00dcea92886ed389594321a07ed54514f616f2873a6b",
+          "n": 756728,
+          "stats": {
+            "n_transitions": 756728,
+            "n_region_transitions": 141623,
+            "region_fraction": 0.18715179033946147,
+            "region_fraction_of_reference": 0.8165956489900883,
+            "occupied_bins_ge1": 482,
+            "occupied_bins_ge5": 459,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              58744,
+              99654,
+              143990,
+              141623,
+              57690,
+              100724,
+              154303
+            ],
+            "success_transitions": 9973,
+            "success_frequency": 0.013179107569158077,
+            "goal_cell_counts": [
+              136292,
+              102458,
+              94551,
+              89712,
+              136204,
+              109303,
+              88208
+            ],
+            "goal_cell_tv_distance_to_reference": 0.000401889830419222,
+            "cell_occupancy_tv_distance_to_reference": 0.0004378312869630849,
+            "action_mean": [
+              0.0035626671742647886,
+              -0.002000015927478671
+            ],
+            "action_std": [
+              0.8506015539169312,
+              0.7886121273040771
+            ],
+            "action_saturated_frac": 0.8771156875389836,
+            "action_hist_tv_distance_to_reference": 0.0012601042897112738,
+            "region_action_mean_abs": [
+              0.5094159245491028,
+              0.9020833373069763
+            ],
+            "through_route_transitions": 255676,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 23,
+            "region_crossings_partly_retained": 4671
+          }
+        },
+        "restricted_severe": {
+          "sha256": "93ab6d28726de35e6e4e8dafe010c43dbf9da8e1f91cce83facb72d54d84cdde",
+          "n": 753606,
+          "stats": {
+            "n_transitions": 753606,
+            "n_region_transitions": 347,
+            "region_fraction": 0.00046045280955831034,
+            "region_fraction_of_reference": 0.0020007957054967106,
+            "occupied_bins_ge1": 441,
+            "occupied_bins_ge5": 409,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              347,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 10235,
+            "success_frequency": 0.013581367209553719,
+            "goal_cell_counts": [
+              137445,
+              98081,
+              88014,
+              105641,
+              137695,
+              105356,
+              81374
+            ],
+            "goal_cell_tv_distance_to_reference": 0.02655973921389882,
+            "cell_occupancy_tv_distance_to_reference": 0.1866905901497916,
+            "action_mean": [
+              -0.0005619103903882205,
+              0.00015114199777599424
+            ],
+            "action_std": [
+              0.8969655632972717,
+              0.7517583966255188
+            ],
+            "action_saturated_frac": 0.8889446209292389,
+            "action_hist_tv_distance_to_reference": 0.09724497083464223,
+            "region_action_mean_abs": [
+              0.4923287034034729,
+              0.9211075901985168
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 0,
+            "region_crossings_partly_retained": 213
+          }
+        },
+        "uniform_severe": {
+          "sha256": "00c41856386e8e4a31af0df02dc97c12518e0946b70d4e0993cf2f3cff4321eb",
+          "n": 753606,
+          "stats": {
+            "n_transitions": 753606,
+            "n_region_transitions": 140912,
+            "region_fraction": 0.18698364928092398,
+            "region_fraction_of_reference": 0.8124960358874711,
+            "occupied_bins_ge1": 479,
+            "occupied_bins_ge5": 463,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              58619,
+              99202,
+              143486,
+              140912,
+              57450,
+              100351,
+              153586
+            ],
+            "success_transitions": 9982,
+            "success_frequency": 0.013245648704469204,
+            "goal_cell_counts": [
+              135914,
+              102122,
+              94141,
+              89385,
+              135582,
+              108633,
+              87829
+            ],
+            "goal_cell_tv_distance_to_reference": 0.0003131444613205317,
+            "cell_occupancy_tv_distance_to_reference": 0.00028403613765846936,
+            "action_mean": [
+              0.0038845017552375793,
+              -0.0023544367868453264
+            ],
+            "action_std": [
+              0.8505838513374329,
+              0.7885221242904663
+            ],
+            "action_saturated_frac": 0.8771931221354394,
+            "action_hist_tv_distance_to_reference": 0.0016296168949022167,
+            "region_action_mean_abs": [
+              0.5086803436279297,
+              0.9019114375114441
+            ],
+            "through_route_transitions": 255098,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 28,
+            "region_crossings_partly_retained": 4671
+          }
+        }
+      }
+    },
+    "2": {
+      "data_seed": 10002,
+      "conditions": {
+        "full": {
+          "sha256": "bef72be4cce694234869e78ec50a246e961e499c18573cc7441190aa90129b80",
+          "n": 926690,
+          "stats": {
+            "n_transitions": 926690,
+            "n_region_transitions": 173431,
+            "region_fraction": 0.18715104295934995,
+            "region_fraction_of_reference": 1.0,
+            "occupied_bins_ge1": 482,
+            "occupied_bins_ge5": 465,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              173431,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 12288,
+            "success_frequency": 0.013260098174214363,
+            "goal_cell_counts": [
+              166990,
+              125607,
+              115640,
+              109887,
+              166747,
+              133676,
+              108143
+            ],
+            "goal_cell_tv_distance_to_reference": 0.0,
+            "cell_occupancy_tv_distance_to_reference": 0.0,
+            "action_mean": [
+              0.003966875374317169,
+              -0.0021261293441057205
+            ],
+            "action_std": [
+              0.8505333662033081,
+              0.7885130047798157
+            ],
+            "action_saturated_frac": 0.8772912192858453,
+            "action_hist_tv_distance_to_reference": 0.0,
+            "region_action_mean_abs": [
+              0.5091391205787659,
+              0.9019690155982971
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 4671,
+            "region_crossings_partly_retained": 4671
+          }
+        },
+        "restricted": {
+          "sha256": "01ecfcdfc9542c80a8f04354a89b3852308cd4ba233e8b26b619e7b2be5c7f58",
+          "n": 756728,
+          "stats": {
+            "n_transitions": 756728,
+            "n_region_transitions": 3469,
+            "region_fraction": 0.004584209914262456,
+            "region_fraction_of_reference": 0.020002191073106884,
+            "occupied_bins_ge1": 471,
+            "occupied_bins_ge5": 425,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              3469,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 10277,
+            "success_frequency": 0.013580837287008762,
+            "goal_cell_counts": [
+              137961,
+              98570,
+              88520,
+              105707,
+              138251,
+              105871,
+              81848
+            ],
+            "goal_cell_tv_distance_to_reference": 0.025978975910747097,
+            "cell_occupancy_tv_distance_to_reference": 0.18256683304508747,
+            "action_mean": [
+              -0.000477741879876703,
+              0.00020109961042180657
+            ],
+            "action_std": [
+              0.8959633708000183,
+              0.7526060342788696
+            ],
+            "action_saturated_frac": 0.8887222357306721,
+            "action_hist_tv_distance_to_reference": 0.09506244782862522,
+            "region_action_mean_abs": [
+              0.5066642165184021,
+              0.9074720144271851
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 0,
+            "region_crossings_partly_retained": 1868
+          }
+        },
+        "uniform": {
+          "sha256": "b016145d9720a73d08d256616a540f5b1fe2107ca7c2e32b3ceb177e268435b9",
+          "n": 756728,
+          "stats": {
+            "n_transitions": 756728,
+            "n_region_transitions": 141635,
+            "region_fraction": 0.18716764808491293,
+            "region_fraction_of_reference": 0.816664840772411,
+            "occupied_bins_ge1": 480,
+            "occupied_bins_ge5": 457,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              58918,
+              99475,
+              144098,
+              141635,
+              57625,
+              100889,
+              154088
+            ],
+            "success_transitions": 10152,
+            "success_frequency": 0.013415652327239513,
+            "goal_cell_counts": [
+              136379,
+              102571,
+              94590,
+              89703,
+              136196,
+              108825,
+              88464
+            ],
+            "goal_cell_tv_distance_to_reference": 0.0004806109844695469,
+            "cell_occupancy_tv_distance_to_reference": 0.0002134572654312883,
+            "action_mean": [
+              0.0037852947134524584,
+              -0.002004886046051979
+            ],
+            "action_std": [
+              0.8504692316055298,
+              0.7886618375778198
+            ],
+            "action_saturated_frac": 0.8772306561935068,
+            "action_hist_tv_distance_to_reference": 0.0014622713728000797,
+            "region_action_mean_abs": [
+              0.5082707405090332,
+              0.902184009552002
+            ],
+            "through_route_transitions": 256131,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 38,
+            "region_crossings_partly_retained": 4671
+          }
+        },
+        "restricted_severe": {
+          "sha256": "47fea1d08bd13305804c55c74bec9036622704ff07652fc981372841c17eb268",
+          "n": 753606,
+          "stats": {
+            "n_transitions": 753606,
+            "n_region_transitions": 347,
+            "region_fraction": 0.00046045280955831034,
+            "region_fraction_of_reference": 0.0020007957054967106,
+            "occupied_bins_ge1": 441,
+            "occupied_bins_ge5": 410,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              347,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 10234,
+            "success_frequency": 0.013580040074884892,
+            "goal_cell_counts": [
+              137436,
+              98074,
+              88006,
+              105647,
+              137710,
+              105356,
+              81377
+            ],
+            "goal_cell_tv_distance_to_reference": 0.026575662653998848,
+            "cell_occupancy_tv_distance_to_reference": 0.1866905901497916,
+            "action_mean": [
+              -0.0005697376909665763,
+              0.0001302296295762062
+            ],
+            "action_std": [
+              0.8969709873199463,
+              0.7517446875572205
+            ],
+            "action_saturated_frac": 0.8889286974891389,
+            "action_hist_tv_distance_to_reference": 0.09726620208810886,
+            "region_action_mean_abs": [
+              0.5115809440612793,
+              0.8834584951400757
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 0,
+            "region_crossings_partly_retained": 221
+          }
+        },
+        "uniform_severe": {
+          "sha256": "61f1b52b9e9c2f975fae18b757cab3d71dd080a373a572fc2f6e22fce018b4cc",
+          "n": 753606,
+          "stats": {
+            "n_transitions": 753606,
+            "n_region_transitions": 141169,
+            "region_fraction": 0.1873246762897323,
+            "region_fraction_of_reference": 0.8139778932255479,
+            "occupied_bins_ge1": 481,
+            "occupied_bins_ge5": 459,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              58559,
+              99044,
+              143474,
+              141169,
+              57547,
+              100473,
+              153340
+            ],
+            "success_transitions": 9980,
+            "success_frequency": 0.01324299443513155,
+            "goal_cell_counts": [
+              135846,
+              102158,
+              94245,
+              89381,
+              135677,
+              108488,
+              87811
+            ],
+            "goal_cell_tv_distance_to_reference": 0.0004695707169465463,
+            "cell_occupancy_tv_distance_to_reference": 0.0003615575053591419,
+            "action_mean": [
+              0.003942407667636871,
+              -0.0021658374462276697
+            ],
+            "action_std": [
+              0.8505725264549255,
+              0.7883862257003784
+            ],
+            "action_saturated_frac": 0.8771028893082061,
+            "action_hist_tv_distance_to_reference": 0.0015579696222634163,
+            "region_action_mean_abs": [
+              0.5091103315353394,
+              0.9020373821258545
+            ],
+            "through_route_transitions": 254626,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 26,
+            "region_crossings_partly_retained": 4671
+          }
+        }
+      }
+    },
+    "3": {
+      "data_seed": 10003,
+      "conditions": {
+        "full": {
+          "sha256": "bef72be4cce694234869e78ec50a246e961e499c18573cc7441190aa90129b80",
+          "n": 926690,
+          "stats": {
+            "n_transitions": 926690,
+            "n_region_transitions": 173431,
+            "region_fraction": 0.18715104295934995,
+            "region_fraction_of_reference": 1.0,
+            "occupied_bins_ge1": 482,
+            "occupied_bins_ge5": 465,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              173431,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 12288,
+            "success_frequency": 0.013260098174214363,
+            "goal_cell_counts": [
+              166990,
+              125607,
+              115640,
+              109887,
+              166747,
+              133676,
+              108143
+            ],
+            "goal_cell_tv_distance_to_reference": 0.0,
+            "cell_occupancy_tv_distance_to_reference": 0.0,
+            "action_mean": [
+              0.003966875374317169,
+              -0.0021261293441057205
+            ],
+            "action_std": [
+              0.8505333662033081,
+              0.7885130047798157
+            ],
+            "action_saturated_frac": 0.8772912192858453,
+            "action_hist_tv_distance_to_reference": 0.0,
+            "region_action_mean_abs": [
+              0.5091391205787659,
+              0.9019690155982971
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 4671,
+            "region_crossings_partly_retained": 4671
+          }
+        },
+        "restricted": {
+          "sha256": "a987544a3a2e30ac4465bb186a754d7c57a5cfc97d34138af373b39a625e2c87",
+          "n": 756728,
+          "stats": {
+            "n_transitions": 756728,
+            "n_region_transitions": 3469,
+            "region_fraction": 0.004584209914262456,
+            "region_fraction_of_reference": 0.020002191073106884,
+            "occupied_bins_ge1": 468,
+            "occupied_bins_ge5": 425,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              3469,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 10263,
+            "success_frequency": 0.013562336564064026,
+            "goal_cell_counts": [
+              137994,
+              98577,
+              88522,
+              105718,
+              138216,
+              105863,
+              81838
+            ],
+            "goal_cell_tv_distance_to_reference": 0.025990869219835684,
+            "cell_occupancy_tv_distance_to_reference": 0.18256683304508747,
+            "action_mean": [
+              -0.000402037549065426,
+              0.0002657235017977655
+            ],
+            "action_std": [
+              0.895963191986084,
+              0.7525706887245178
+            ],
+            "action_saturated_frac": 0.8886403040458395,
+            "action_hist_tv_distance_to_reference": 0.09507962705286432,
+            "region_action_mean_abs": [
+              0.5067511200904846,
+              0.899733304977417
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 0,
+            "region_crossings_partly_retained": 1847
+          }
+        },
+        "uniform": {
+          "sha256": "1053b8938225ee149b1ecd8918d4b2f23efcd1c898fa7e73af2f7f46189e6a0f",
+          "n": 756728,
+          "stats": {
+            "n_transitions": 756728,
+            "n_region_transitions": 141670,
+            "region_fraction": 0.18721389984247974,
+            "region_fraction_of_reference": 0.8168666501375187,
+            "occupied_bins_ge1": 481,
+            "occupied_bins_ge5": 463,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              58731,
+              99365,
+              144339,
+              141670,
+              57610,
+              100967,
+              154046
+            ],
+            "success_transitions": 9979,
+            "success_frequency": 0.013187036849558353,
+            "goal_cell_counts": [
+              136494,
+              102459,
+              94367,
+              89618,
+              136100,
+              109241,
+              88449
+            ],
+            "goal_cell_tv_distance_to_reference": 0.00046738388148166027,
+            "cell_occupancy_tv_distance_to_reference": 0.000599192116423751,
+            "action_mean": [
+              0.00389611953869462,
+              -0.0021973908878862858
+            ],
+            "action_std": [
+              0.8505734801292419,
+              0.7886406779289246
+            ],
+            "action_saturated_frac": 0.877530631878297,
+            "action_hist_tv_distance_to_reference": 0.00174594799877268,
+            "region_action_mean_abs": [
+              0.5100122690200806,
+              0.9025526642799377
+            ],
+            "through_route_transitions": 255724,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 35,
+            "region_crossings_partly_retained": 4671
+          }
+        },
+        "restricted_severe": {
+          "sha256": "add187467dd30651603f5aceb435a2f29e9fa819fb5b8af735e83b6326c4a753",
+          "n": 753606,
+          "stats": {
+            "n_transitions": 753606,
+            "n_region_transitions": 347,
+            "region_fraction": 0.00046045280955831034,
+            "region_fraction_of_reference": 0.0020007957054967106,
+            "occupied_bins_ge1": 436,
+            "occupied_bins_ge5": 407,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              347,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 10235,
+            "success_frequency": 0.013581367209553719,
+            "goal_cell_counts": [
+              137443,
+              98081,
+              88000,
+              105641,
+              137707,
+              105356,
+              81378
+            ],
+            "goal_cell_tv_distance_to_reference": 0.026573008747315482,
+            "cell_occupancy_tv_distance_to_reference": 0.1866905901497916,
+            "action_mean": [
+              -0.0005298614269122481,
+              0.00015950531815178692
+            ],
+            "action_std": [
+              0.8969765901565552,
+              0.7517526149749756
+            ],
+            "action_saturated_frac": 0.8889366592091889,
+            "action_hist_tv_distance_to_reference": 0.09725824036805888,
+            "region_action_mean_abs": [
+              0.5295903086662292,
+              0.9075594544410706
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 0,
+            "region_crossings_partly_retained": 251
+          }
+        },
+        "uniform_severe": {
+          "sha256": "c3867eba2cca563468da3946a5f197d8d6fb8df94461f40aa31e492f2c433bc4",
+          "n": 753606,
+          "stats": {
+            "n_transitions": 753606,
+            "n_region_transitions": 141000,
+            "region_fraction": 0.18710042117499065,
+            "region_fraction_of_reference": 0.8130034422911705,
+            "occupied_bins_ge1": 482,
+            "occupied_bins_ge5": 460,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              58602,
+              99171,
+              143504,
+              141000,
+              57358,
+              100464,
+              153507
+            ],
+            "success_transitions": 10013,
+            "success_frequency": 0.01328678335994482,
+            "goal_cell_counts": [
+              135579,
+              102032,
+              94027,
+              89488,
+              135862,
+              108751,
+              87867
+            ],
+            "goal_cell_tv_distance_to_reference": 0.0005670117350401946,
+            "cell_occupancy_tv_distance_to_reference": 0.00023402452072316532,
+            "action_mean": [
+              0.0038530456367880106,
+              -0.002793343039229512
+            ],
+            "action_std": [
+              0.8506166934967041,
+              0.7884626388549805
+            ],
+            "action_saturated_frac": 0.8770710424280062,
+            "action_hist_tv_distance_to_reference": 0.0014287740174559371,
+            "region_action_mean_abs": [
+              0.5095946192741394,
+              0.9019707441329956
+            ],
+            "through_route_transitions": 254583,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 33,
+            "region_crossings_partly_retained": 4671
+          }
+        }
+      }
+    },
+    "4": {
+      "data_seed": 10004,
+      "conditions": {
+        "full": {
+          "sha256": "bef72be4cce694234869e78ec50a246e961e499c18573cc7441190aa90129b80",
+          "n": 926690,
+          "stats": {
+            "n_transitions": 926690,
+            "n_region_transitions": 173431,
+            "region_fraction": 0.18715104295934995,
+            "region_fraction_of_reference": 1.0,
+            "occupied_bins_ge1": 482,
+            "occupied_bins_ge5": 465,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              173431,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 12288,
+            "success_frequency": 0.013260098174214363,
+            "goal_cell_counts": [
+              166990,
+              125607,
+              115640,
+              109887,
+              166747,
+              133676,
+              108143
+            ],
+            "goal_cell_tv_distance_to_reference": 0.0,
+            "cell_occupancy_tv_distance_to_reference": 0.0,
+            "action_mean": [
+              0.003966875374317169,
+              -0.0021261293441057205
+            ],
+            "action_std": [
+              0.8505333662033081,
+              0.7885130047798157
+            ],
+            "action_saturated_frac": 0.8772912192858453,
+            "action_hist_tv_distance_to_reference": 0.0,
+            "region_action_mean_abs": [
+              0.5091391205787659,
+              0.9019690155982971
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 4671,
+            "region_crossings_partly_retained": 4671
+          }
+        },
+        "restricted": {
+          "sha256": "b3ceea733f5f1644622748357629f9ed18b6b53809aaf13a6a5207027a7961c5",
+          "n": 756728,
+          "stats": {
+            "n_transitions": 756728,
+            "n_region_transitions": 3469,
+            "region_fraction": 0.004584209914262456,
+            "region_fraction_of_reference": 0.020002191073106884,
+            "occupied_bins_ge1": 468,
+            "occupied_bins_ge5": 423,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              3469,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 10263,
+            "success_frequency": 0.013562336564064026,
+            "goal_cell_counts": [
+              137945,
+              98592,
+              88506,
+              105720,
+              138213,
+              105871,
+              81881
+            ],
+            "goal_cell_tv_distance_to_reference": 0.025924795280454584,
+            "cell_occupancy_tv_distance_to_reference": 0.18256683304508747,
+            "action_mean": [
+              -0.0005095927626825869,
+              0.0002604381588753313
+            ],
+            "action_std": [
+              0.8959788680076599,
+              0.7525734901428223
+            ],
+            "action_saturated_frac": 0.8886601262276538,
+            "action_hist_tv_distance_to_reference": 0.09512397157097305,
+            "region_action_mean_abs": [
+              0.5106472373008728,
+              0.8994181156158447
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 0,
+            "region_crossings_partly_retained": 1822
+          }
+        },
+        "uniform": {
+          "sha256": "59246453004c000b9378c3e75edd4d32417388cd9c14ba8a0dd10692ea06aae4",
+          "n": 756728,
+          "stats": {
+            "n_transitions": 756728,
+            "n_region_transitions": 141739,
+            "region_fraction": 0.1873050818788257,
+            "region_fraction_of_reference": 0.8172645028858739,
+            "occupied_bins_ge1": 480,
+            "occupied_bins_ge5": 460,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              58909,
+              99636,
+              143962,
+              141739,
+              57564,
+              100797,
+              154121
+            ],
+            "success_transitions": 10003,
+            "success_frequency": 0.013218752108514309,
+            "goal_cell_counts": [
+              136332,
+              102518,
+              94512,
+              89700,
+              136103,
+              109301,
+              88262
+            ],
+            "goal_cell_tv_distance_to_reference": 0.00029528734631478065,
+            "cell_occupancy_tv_distance_to_reference": 0.00040697541252846664,
+            "action_mean": [
+              0.004436642397195101,
+              -0.0022534935269504786
+            ],
+            "action_std": [
+              0.8505279421806335,
+              0.7885736227035522
+            ],
+            "action_saturated_frac": 0.8774883445570931,
+            "action_hist_tv_distance_to_reference": 0.0015730546034405254,
+            "region_action_mean_abs": [
+              0.5093989968299866,
+              0.9025034308433533
+            ],
+            "through_route_transitions": 255792,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 27,
+            "region_crossings_partly_retained": 4671
+          }
+        },
+        "restricted_severe": {
+          "sha256": "da58c7d36207de1c816eff893d20741e784368d88595c88fbb05e966693b247c",
+          "n": 753606,
+          "stats": {
+            "n_transitions": 753606,
+            "n_region_transitions": 347,
+            "region_fraction": 0.00046045280955831034,
+            "region_fraction_of_reference": 0.0020007957054967106,
+            "occupied_bins_ge1": 443,
+            "occupied_bins_ge5": 408,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              72075,
+              121845,
+              176454,
+              347,
+              70688,
+              123451,
+              188746
+            ],
+            "success_transitions": 10234,
+            "success_frequency": 0.013580040074884892,
+            "goal_cell_counts": [
+              137448,
+              98087,
+              88002,
+              105645,
+              137705,
+              105351,
+              81368
+            ],
+            "goal_cell_tv_distance_to_reference": 0.02658229742070716,
+            "cell_occupancy_tv_distance_to_reference": 0.1866905901497916,
+            "action_mean": [
+              -0.0005544197047129273,
+              0.00015415858069900423
+            ],
+            "action_std": [
+              0.8969646692276001,
+              0.7517452836036682
+            ],
+            "action_saturated_frac": 0.8889207357690889,
+            "action_hist_tv_distance_to_reference": 0.0972569134147172,
+            "region_action_mean_abs": [
+              0.4862181544303894,
+              0.8877949714660645
+            ],
+            "through_route_transitions": 313298,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 0,
+            "region_crossings_partly_retained": 226
+          }
+        },
+        "uniform_severe": {
+          "sha256": "9c8719abe2efe9722b6a818022bb5b7be2dd2d55e9b1a8dfa2fee63ad493cd23",
+          "n": 753606,
+          "stats": {
+            "n_transitions": 753606,
+            "n_region_transitions": 141137,
+            "region_fraction": 0.18728221378279897,
+            "region_fraction_of_reference": 0.8137933818060208,
+            "occupied_bins_ge1": 480,
+            "occupied_bins_ge5": 461,
+            "bin_size_m": 0.1,
+            "occupied_cells": 7,
+            "cell_counts": [
+              58645,
+              99077,
+              143609,
+              141137,
+              57398,
+              100384,
+              153356
+            ],
+            "success_transitions": 9957,
+            "success_frequency": 0.013212474063038826,
+            "goal_cell_counts": [
+              135711,
+              102047,
+              94262,
+              89366,
+              135581,
+              108761,
+              87878
+            ],
+            "goal_cell_tv_distance_to_reference": 0.00036718412603557044,
+            "cell_occupancy_tv_distance_to_reference": 0.0003227823848108921,
+            "action_mean": [
+              0.004217516165226698,
+              -0.002027106937021017
+            ],
+            "action_std": [
+              0.8504806160926819,
+              0.7887455224990845
+            ],
+            "action_saturated_frac": 0.8772196612022728,
+            "action_hist_tv_distance_to_reference": 0.0013876289673178956,
+            "region_action_mean_abs": [
+              0.5098901987075806,
+              0.902175784111023
+            ],
+            "through_route_transitions": 254730,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 4671,
+            "region_crossings_fully_retained": 33,
+            "region_crossings_partly_retained": 4671
+          }
+        }
+      }
+    }
+  },
+  "created_utc": "2026-11-21T20:59:22+00:00"
+}

@@ -1,0 +1,62 @@
+{
+  "tag": "umaze__random",
+  "suite": "final",
+  "maze": "umaze",
+  "horizon": 300,
+  "n_episodes": 16,
+  "env_steps": 4800,
+  "eval_seconds": 1.6155531000040355,
+  "summary": {
+    "pairs": {
+      "n_episodes": 12,
+      "success_rate": 0.16666666666666666,
+      "success_rate_third_horizon": 0.0,
+      "mean_return": 5.583333333333333,
+      "mean_final_distance": 1.8852821268021867,
+      "mean_first_success_step_successes": 264.0,
+      "median_first_success_step_censored": NaN,
+      "mean_path_length_successes": 3.4322773106605715
+    },
+    "benchmark": {
+      "n_episodes": 4,
+      "success_rate": 0.25,
+      "success_rate_third_horizon": 0.0,
+      "mean_return": 5.75,
+      "mean_final_distance": 1.5332214647116782,
+      "mean_first_success_step_successes": 278.0,
+      "median_first_success_step_censored": NaN,
+      "mean_path_length_successes": 3.0725300411407552
+    },
+    "pairs_through": {
+      "n_episodes": 8,
+      "success_rate": 0.25,
+      "success_rate_third_horizon": 0.0,
+      "mean_return": 8.375,
+      "mean_final_distance": 1.6735473464615245,
+      "mean_first_success_step_successes": 264.0,
+      "median_first_success_step_censored": NaN,
+      "mean_path_length_successes": 3.4322773106605715
+    },
+    "pairs_avoid": {
+      "n_episodes": 3,
+      "success_rate": 0.0,
+      "success_rate_third_horizon": 0.0,
+      "mean_return": 0.0,
+      "mean_final_distance": 2.2452198191171235,
+      "mean_first_success_step_successes": NaN,
+      "median_first_success_step_censored": NaN,
+      "mean_path_length_successes": NaN
+    },
+    "pairs_endpoint": {
+      "n_episodes": 1,
+      "success_rate": 0.0,
+      "success_rate_third_horizon": 0.0,
+      "mean_return": 0.0,
+      "mean_final_distance": 2.49934729258267,
+      "mean_first_success_step_successes": NaN,
+      "median_first_success_step_censored": NaN,
+      "mean_path_length_successes": NaN
+    }
+  },
+  "finished_utc": "2026-11-21T20:53:10+00:00"
+}

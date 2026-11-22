@@ -1,0 +1,590 @@
+{
+  "maze": "medium",
+  "dataset_id": "D4RL/pointmaze/medium-v2",
+  "dataset_sha256": "e5a6b0265c42cf7a2bfe34ea186a0351d0e6ac87e753ce0e90aa7c4c3e02a296",
+  "n_recorded_transitions": 1000000,
+  "n_goal_switch_excluded": 4747,
+  "holdout": {
+    "config": {
+      "block_starts": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "block_fraction": 0.01,
+      "gap_steps": 1000
+    },
+    "n_holdout_transitions": 49949,
+    "sha256": "71ebda3d567bbf5aa29c349424f7a869b023d30bcef93690213efdec59bccdf1",
+    "n_gap_transitions": 11264,
+    "n_holdout_episodes": 244,
+    "n_gap_episodes": 51
+  },
+  "eligible_pool": {
+    "n": 934091,
+    "cell_counts": {
+      "1-1": 4324,
+      "1-2": 10287,
+      "1-5": 9973,
+      "1-6": 3552,
+      "2-1": 9324,
+      "2-2": 27579,
+      "2-4": 38798,
+      "2-5": 28784,
+      "2-6": 10393,
+      "3-2": 54219,
+      "3-3": 21086,
+      "3-4": 51415,
+      "4-1": 58546,
+      "4-2": 56235,
+      "4-4": 75554,
+      "4-5": 32274,
+      "4-6": 28706,
+      "5-1": 52449,
+      "5-3": 65188,
+      "5-4": 66515,
+      "5-6": 21359,
+      "6-1": 70521,
+      "6-2": 49886,
+      "6-3": 63500,
+      "6-5": 7182,
+      "6-6": 16442
+    }
+  },
+  "region": {
+    "cell": [
+      3,
+      4
+    ],
+    "center_xy": [
+      0.5,
+      0.5
+    ],
+    "betweenness": 338.0,
+    "betweenness_ranking": [
+      {
+        "cell": [
+          3,
+          4
+        ],
+        "betweenness": 338.0
+      },
+      {
+        "cell": [
+          4,
+          4
+        ],
+        "betweenness": 290.0
+      },
+      {
+        "cell": [
+          3,
+          2
+        ],
+        "betweenness": 253.0
+      },
+      {
+        "cell": [
+          3,
+          3
+        ],
+        "betweenness": 221.0
+      },
+      {
+        "cell": [
+          2,
+          4
+        ],
+        "betweenness": 168.0
+      },
+      {
+        "cell": [
+          4,
+          5
+        ],
+        "betweenness": 168.0
+      }
+    ],
+    "is_articulation_point": true,
+    "n_pool_transitions_in_region": 51415,
+    "retention": 0.02,
+    "n_retained": 1028,
+    "severe_retention": 0.002,
+    "n_retained_severe": 103
+  },
+  "seeds": {
+    "0": {
+      "data_seed": 10000,
+      "conditions": {
+        "full": {
+          "sha256": "14157e17946536b0cd2eec1b6590eb0f512cbf40eec7e069526e4ddb6d398c03",
+          "n": 934091,
+          "stats": {
+            "n_transitions": 934091,
+            "n_region_transitions": 51415,
+            "region_fraction": 0.05504281702746306,
+            "region_fraction_of_reference": 1.0,
+            "occupied_bins_ge1": 1914,
+            "occupied_bins_ge5": 1762,
+            "bin_size_m": 0.1,
+            "occupied_cells": 26,
+            "cell_counts": [
+              4324,
+              10287,
+              9973,
+              3552,
+              9324,
+              27579,
+              38798,
+              28784,
+              10393,
+              54219,
+              21086,
+              51415,
+              58546,
+              56235,
+              75554,
+              32274,
+              28706,
+              52449,
+              65188,
+              66515,
+              21359,
+              70521,
+              49886,
+              63500,
+              7182,
+              16442
+            ],
+            "success_transitions": 4440,
+            "success_frequency": 0.004753284156322479,
+            "goal_cell_counts": [
+              50055,
+              41806,
+              33537,
+              40403,
+              41376,
+              44538,
+              27302,
+              38202,
+              37836,
+              43699,
+              31265,
+              31823,
+              35981,
+              35863,
+              34274,
+              33481,
+              28931,
+              37060,
+              27023,
+              24566,
+              34724,
+              29235,
+              30266,
+              30805,
+              50591,
+              39449
+            ],
+            "goal_cell_tv_distance_to_reference": 0.0,
+            "cell_occupancy_tv_distance_to_reference": 0.0,
+            "action_mean": [
+              -0.004037688951939344,
+              -0.0032187518663704395
+            ],
+            "action_std": [
+              0.8136543035507202,
+              0.8411746025085449
+            ],
+            "action_saturated_frac": 0.853863274563185,
+            "action_hist_tv_distance_to_reference": 0.0,
+            "region_action_mean_abs": [
+              0.6189342141151428,
+              0.8718481659889221
+            ],
+            "through_route_transitions": 319962,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 1744,
+            "region_crossings_fully_retained": 1744,
+            "region_crossings_partly_retained": 1744
+          }
+        },
+        "restricted": {
+          "sha256": "22ae85aaf83eb1c0ec0613573e8a2ccbae6f8239be31630fe1d3b59add061c18",
+          "n": 883704,
+          "stats": {
+            "n_transitions": 883704,
+            "n_region_transitions": 1028,
+            "region_fraction": 0.0011632854439948218,
+            "region_fraction_of_reference": 0.01999416512690849,
+            "occupied_bins_ge1": 1883,
+            "occupied_bins_ge5": 1718,
+            "bin_size_m": 0.1,
+            "occupied_cells": 26,
+            "cell_counts": [
+              4324,
+              10287,
+              9973,
+              3552,
+              9324,
+              27579,
+              38798,
+              28784,
+              10393,
+              54219,
+              21086,
+              1028,
+              58546,
+              56235,
+              75554,
+              32274,
+              28706,
+              52449,
+              65188,
+              66515,
+              21359,
+              70521,
+              49886,
+              63500,
+              7182,
+              16442
+            ],
+            "success_transitions": 4241,
+            "success_frequency": 0.004799118265509605,
+            "goal_cell_counts": [
+              48322,
+              40265,
+              30409,
+              37171,
+              39825,
+              42433,
+              24147,
+              34428,
+              34376,
+              41927,
+              28918,
+              31480,
+              34315,
+              34178,
+              32457,
+              31866,
+              27575,
+              35050,
+              25487,
+              22996,
+              33338,
+              27852,
+              28945,
+              29458,
+              48847,
+              37639
+            ],
+            "goal_cell_tv_distance_to_reference": 0.00925725976849119,
+            "cell_occupancy_tv_distance_to_reference": 0.053879531583468254,
+            "action_mean": [
+              0.012814896181225777,
+              0.008690536953508854
+            ],
+            "action_std": [
+              0.8188431262969971,
+              0.8369112014770508
+            ],
+            "action_saturated_frac": 0.8534735612829635,
+            "action_hist_tv_distance_to_reference": 0.017275745579258105,
+            "region_action_mean_abs": [
+              0.6273508071899414,
+              0.8717049360275269
+            ],
+            "through_route_transitions": 319962,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 1744,
+            "region_crossings_fully_retained": 0,
+            "region_crossings_partly_retained": 724
+          }
+        },
+        "uniform": {
+          "sha256": "bc257ed41d7b3c59a8ee632bb213a878152b6978eb68afb2c160aa958d8703f8",
+          "n": 883704,
+          "stats": {
+            "n_transitions": 883704,
+            "n_region_transitions": 48626,
+            "region_fraction": 0.055025212061957395,
+            "region_fraction_of_reference": 0.9457551298259262,
+            "occupied_bins_ge1": 1913,
+            "occupied_bins_ge5": 1751,
+            "bin_size_m": 0.1,
+            "occupied_cells": 26,
+            "cell_counts": [
+              4096,
+              9753,
+              9451,
+              3387,
+              8840,
+              26159,
+              36657,
+              27240,
+              9810,
+              51379,
+              19996,
+              48626,
+              55332,
+              53123,
+              71514,
+              30485,
+              27175,
+              49628,
+              61604,
+              62838,
+              20196,
+              66717,
+              47172,
+              60116,
+              6818,
+              15592
+            ],
+            "success_transitions": 4245,
+            "success_frequency": 0.004803644493222237,
+            "goal_cell_counts": [
+              47364,
+              39592,
+              31751,
+              38174,
+              39152,
+              42151,
+              25793,
+              36109,
+              35844,
+              41374,
+              29598,
+              30100,
+              33977,
+              33952,
+              32384,
+              31691,
+              27394,
+              35031,
+              25520,
+              23243,
+              32872,
+              27644,
+              28595,
+              29196,
+              47938,
+              37265
+            ],
+            "goal_cell_tv_distance_to_reference": 0.00046672015834319826,
+            "cell_occupancy_tv_distance_to_reference": 0.0005195431000718036,
+            "action_mean": [
+              -0.0043331775814294815,
+              -0.0036718794144690037
+            ],
+            "action_std": [
+              0.8135740756988525,
+              0.8412086963653564
+            ],
+            "action_saturated_frac": 0.8537994622633823,
+            "action_hist_tv_distance_to_reference": 0.0009207236428356054,
+            "region_action_mean_abs": [
+              0.6188334226608276,
+              0.8715749382972717
+            ],
+            "through_route_transitions": 302691,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 1744,
+            "region_crossings_fully_retained": 408,
+            "region_crossings_partly_retained": 1744
+          }
+        },
+        "restricted_severe": {
+          "sha256": "2b477ccecb7643c7737e33c5be49b445c20b7983c7737866fa25c8baf4ba78d7",
+          "n": 882779,
+          "stats": {
+            "n_transitions": 882779,
+            "n_region_transitions": 103,
+            "region_fraction": 0.00011667699390221108,
+            "region_fraction_of_reference": 0.002003306428085189,
+            "occupied_bins_ge1": 1857,
+            "occupied_bins_ge5": 1686,
+            "bin_size_m": 0.1,
+            "occupied_cells": 26,
+            "cell_counts": [
+              4324,
+              10287,
+              9973,
+              3552,
+              9324,
+              27579,
+              38798,
+              28784,
+              10393,
+              54219,
+              21086,
+              103,
+              58546,
+              56235,
+              75554,
+              32274,
+              28706,
+              52449,
+              65188,
+              66515,
+              21359,
+              70521,
+              49886,
+              63500,
+              7182,
+              16442
+            ],
+            "success_transitions": 4237,
+            "success_frequency": 0.00479961559176445,
+            "goal_cell_counts": [
+              48291,
+              40235,
+              30353,
+              37102,
+              39796,
+              42389,
+              24101,
+              34349,
+              34323,
+              41903,
+              28885,
+              31475,
+              34284,
+              34139,
+              32419,
+              31839,
+              27554,
+              35012,
+              25450,
+              22975,
+              33304,
+              27835,
+              28909,
+              29435,
+              48812,
+              37610
+            ],
+            "goal_cell_tv_distance_to_reference": 0.00942294267775287,
+            "cell_occupancy_tv_distance_to_reference": 0.05492614003356083,
+            "action_mean": [
+              0.013170267455279827,
+              0.008924570865929127
+            ],
+            "action_std": [
+              0.8189361095428467,
+              0.836825966835022
+            ],
+            "action_saturated_frac": 0.8534491645134287,
+            "action_hist_tv_distance_to_reference": 0.017594102544852587,
+            "region_action_mean_abs": [
+              0.5764084458351135,
+              0.8813416361808777
+            ],
+            "through_route_transitions": 319962,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 1744,
+            "region_crossings_fully_retained": 0,
+            "region_crossings_partly_retained": 87
+          }
+        },
+        "uniform_severe": {
+          "sha256": "34b8b74973542393e05a22e70115477669d16b9cc3fbcbe22a7bea23770b28d9",
+          "n": 882779,
+          "stats": {
+            "n_transitions": 882779,
+            "n_region_transitions": 48571,
+            "region_fraction": 0.0550205657361582,
+            "region_fraction_of_reference": 0.9446854030924827,
+            "occupied_bins_ge1": 1914,
+            "occupied_bins_ge5": 1750,
+            "bin_size_m": 0.1,
+            "occupied_cells": 26,
+            "cell_counts": [
+              4094,
+              9770,
+              9404,
+              3353,
+              8849,
+              26055,
+              36684,
+              27201,
+              9824,
+              51308,
+              19930,
+              48571,
+              55299,
+              53153,
+              71455,
+              30506,
+              27091,
+              49595,
+              61508,
+              62766,
+              20224,
+              66648,
+              47141,
+              60063,
+              6735,
+              15552
+            ],
+            "success_transitions": 4174,
+            "success_frequency": 0.004728250205516815,
+            "goal_cell_counts": [
+              47430,
+              39563,
+              31694,
+              38160,
+              39003,
+              41993,
+              25847,
+              36138,
+              35733,
+              41361,
+              29595,
+              30109,
+              33941,
+              33834,
+              32324,
+              31696,
+              27316,
+              35058,
+              25515,
+              23217,
+              32835,
+              27643,
+              28675,
+              29067,
+              47768,
+              37264
+            ],
+            "goal_cell_tv_distance_to_reference": 0.0006729116022640511,
+            "cell_occupancy_tv_distance_to_reference": 0.00042578026637948635,
+            "action_mean": [
+              -0.0038949106819927692,
+              -0.0032549332827329636
+            ],
+            "action_std": [
+              0.8136096000671387,
+              0.841147243976593
+            ],
+            "action_saturated_frac": 0.8538150545040152,
+            "action_hist_tv_distance_to_reference": 0.0007089417502667682,
+            "region_action_mean_abs": [
+              0.6188114285469055,
+              0.8719536662101746
+            ],
+            "through_route_transitions": 302368,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 1744,
+            "region_crossings_fully_retained": 417,
+            "region_crossings_partly_retained": 1744
+          }
+        }
+      }
+    }
+  },
+  "created_utc": "2026-11-21T20:49:59+00:00"
+}

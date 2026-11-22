@@ -1,0 +1,87 @@
+[
+ {
+  "check": "essential files",
+  "status": "PASS",
+  "detail": "50/50 present"
+ },
+ {
+  "check": "main-study run records",
+  "status": "PASS",
+  "detail": "100/100 runs with per-episode results"
+ },
+ {
+  "check": "main-study figures",
+  "status": "PASS",
+  "detail": "13 PNG, 13 PDF"
+ },
+ {
+  "check": "python version",
+  "status": "PASS",
+  "detail": "3.10.2"
+ },
+ {
+  "check": "packages match requirements-lock.txt",
+  "status": "PASS",
+  "detail": "all 67 pinned packages match; torch 2.11.0+cu128, numpy 2.2.6, pandas 2.3.3, matplotlib 3.10.9, minari 0.5.3, gymnasium 1.2.3, gymnasium-robotics 1.4.2, mujoco 3.17.0"
+ },
+ {
+  "check": "GPU (optional)",
+  "status": "PASS",
+  "detail": "NVIDIA GeForce RTX 2060"
+ },
+ {
+  "check": "python syntax",
+  "status": "PASS",
+  "detail": "37 files parsed"
+ },
+ {
+  "check": "offnav imports",
+  "status": "PASS",
+  "detail": "14 modules import; imported from src\\offnav"
+ },
+ {
+  "check": "source/config digest (informational)",
+  "status": "PASS",
+  "detail": "9d5ec5a0ca24909a9b0cc0f3b700a05c419cd84ebd659542387131d270a3f500"
+ },
+ {
+  "check": "dataset umaze-v2 checksums",
+  "status": "PASS",
+  "detail": "2 files match the audit"
+ },
+ {
+  "check": "processed cache umaze",
+  "status": "PASS",
+  "detail": "built from the audited dataset"
+ },
+ {
+  "check": "dataset medium-v2 checksums",
+  "status": "PASS",
+  "detail": "2 files match the audit"
+ },
+ {
+  "check": "processed cache medium",
+  "status": "PASS",
+  "detail": "built from the audited dataset"
+ },
+ {
+  "check": "checkpoints vs index",
+  "status": "PASS",
+  "detail": "124 runs, 248 files match their SHA-256"
+ },
+ {
+  "check": "git ignores local/large material",
+  "status": "PASS",
+  "detail": "ignored: data, artifacts, .venv, backups, local_records, LOCAL_SETUP.md"
+ },
+ {
+  "check": "size of what git would include",
+  "status": "PASS",
+  "detail": "1222 files, 33.9 MB; no file > 10 MB"
+ },
+ {
+  "check": "local user paths in files git would include",
+  "status": "WARN",
+  "detail": "248 files, all under results/ (run_info.json command lines and grid logs; unmodified records)"
+ }
+]

@@ -1,0 +1,26 @@
+{
+  "jobs": [
+    {
+      "run_id": "medium__full__iql__s100",
+      "exit_code": 0,
+      "wall_seconds": 820.1808597999989
+    },
+    {
+      "run_id": "umaze__full__iql__s100",
+      "exit_code": 0,
+      "wall_seconds": 759.339796399996
+    },
+    {
+      "run_id": "medium__full__bc__s100",
+      "exit_code": 0,
+      "wall_seconds": 291.04738720000023
+    },
+    {
+      "run_id": "umaze__full__bc__s100",
+      "exit_code": 0,
+      "wall_seconds": 226.7714074999967
+    }
+  ],
+  "failed": [],
+  "finished_utc": "2026-11-21T20:46:09+00:00"
+}

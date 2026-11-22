@@ -1,0 +1,20 @@
+# Normalise line endings of code and documentation in the repository.
+* text=auto
+
+# Experimental records are checksummed and compared byte-for-byte: never convert their line endings.
+results/** -text
+audit/evidence/** -text
+requirements-lock.txt -text
+requirements-lock-cpu.txt -text
+
+# Windows scripts keep CRLF.
+*.ps1 text eol=crlf
+
+# Binary formats.
+*.png binary
+*.pdf binary
+*.npz binary
+*.gz binary
+*.zip binary
+*.pt binary
+*.hdf5 binary

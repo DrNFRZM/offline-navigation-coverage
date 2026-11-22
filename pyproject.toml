@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "offnav"
+version = "0.1.0"
+description = "Offline navigation from incomplete experience: data coverage versus dataset size (PointMaze, behavior cloning vs implicit Q-learning)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Farzam Nikbakhsh Jorshari" }]
+dependencies = [
+    "torch>=2.4",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "minari[hf,hdf5]==0.5.3",
+    "gymnasium-robotics==1.4.2",
+    # gymnasium 1.4.0 fails to import on Python 3.10.2 (typing.Generic bug); 1.2.3 is tested.
+    "gymnasium==1.2.3",
+    "mujoco==3.17.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+offnav = "offnav.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "integration: needs the downloaded Minari datasets and the MuJoCo simulator",
+]

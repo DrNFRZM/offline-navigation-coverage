@@ -1,0 +1,62 @@
+{
+  "tag": "umaze__uniform_severe__bc__s0",
+  "suite": "final",
+  "maze": "umaze",
+  "horizon": 300,
+  "n_episodes": 16,
+  "env_steps": 4800,
+  "eval_seconds": 1.7358143000019481,
+  "summary": {
+    "pairs": {
+      "n_episodes": 12,
+      "success_rate": 1.0,
+      "success_rate_third_horizon": 0.6666666666666666,
+      "mean_return": 100.0,
+      "mean_final_distance": 0.5114538950505639,
+      "mean_first_success_step_successes": 77.83333333333333,
+      "median_first_success_step_censored": 78.0,
+      "mean_path_length_successes": 2.816397193643505
+    },
+    "benchmark": {
+      "n_episodes": 4,
+      "success_rate": 1.0,
+      "success_rate_third_horizon": 0.5,
+      "mean_return": 75.5,
+      "mean_final_distance": 0.6092046275543433,
+      "mean_first_success_step_successes": 93.75,
+      "median_first_success_step_censored": 96.0,
+      "mean_path_length_successes": 3.0413771138123584
+    },
+    "pairs_through": {
+      "n_episodes": 8,
+      "success_rate": 1.0,
+      "success_rate_third_horizon": 0.5,
+      "mean_return": 105.75,
+      "mean_final_distance": 0.37723886168600645,
+      "mean_first_success_step_successes": 97.0,
+      "median_first_success_step_censored": 103.0,
+      "mean_path_length_successes": 3.6128279050831735
+    },
+    "pairs_avoid": {
+      "n_episodes": 3,
+      "success_rate": 1.0,
+      "success_rate_third_horizon": 1.0,
+      "mean_return": 105.0,
+      "mean_final_distance": 0.7144944426518692,
+      "mean_first_success_step_successes": 41.0,
+      "median_first_success_step_censored": 45.0,
+      "mean_path_length_successes": 1.2541261730052633
+    },
+    "pairs_endpoint": {
+      "n_episodes": 1,
+      "success_rate": 1.0,
+      "success_rate_third_horizon": 1.0,
+      "mean_return": 39.0,
+      "mean_final_distance": 0.9760525191631084,
+      "mean_first_success_step_successes": 35.0,
+      "median_first_success_step_censored": 35.0,
+      "mean_path_length_successes": 1.131764564040882
+    }
+  },
+  "finished_utc": "2026-11-21T20:53:04+00:00"
+}

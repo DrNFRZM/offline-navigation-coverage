@@ -1,0 +1,119 @@
+{
+  "run_id": "umaze__uniform_severe__iql__s0",
+  "status": "trained",
+  "start": "fresh",
+  "finished_utc": "2026-11-22T01:00:59+00:00",
+  "command": "C:\\Users\\sacro\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\af21c915-96df-4c40-98da-3b1005a48af6\\56f83710-29cc-45e1-91b0-43bded243e78\\scratch-2026-11-21-154cc0\\offline-navigation-coverage\\src\\offnav\\cli.py train --config configs/main.json --maze umaze --condition uniform_severe --method iql --seed 0",
+  "config_path": "configs/main.json",
+  "mode": "main",
+  "fingerprint": "f96389fddf151009",
+  "fingerprint_content": {
+    "maze": "umaze",
+    "condition": "uniform_severe",
+    "method": "iql",
+    "seed_index": 0,
+    "seeds": {
+      "data": 10000,
+      "init": 20000,
+      "batch": 30000
+    },
+    "manifest_sha256": "3b2c7cbcd77c796775945e29b1ae04f55e343bbaf2bf412f0d391abbbbda6150",
+    "dataset_sha256": "1d4cb41832c2b5792c5465bf54c66c8a0d590c6523b4f2156e19e2fc39bd3e4a",
+    "training": {
+      "steps": 200000,
+      "batch_size": 256,
+      "log_every": 1000,
+      "checkpoint_every": 25000,
+      "obs_std_floor": 0.001,
+      "device": "auto",
+      "network": {
+        "hidden": [
+          256,
+          256
+        ],
+        "log_std_min": -5.0,
+        "log_std_max": 2.0
+      }
+    },
+    "method_cfg": {
+      "actor_lr": 0.0003,
+      "critic_lr": 0.0003,
+      "value_lr": 0.0003,
+      "discount": 0.99,
+      "expectile": 0.9,
+      "beta": 10.0,
+      "max_adv_weight": 100.0,
+      "polyak": 0.005,
+      "reward_shift": -1.0
+    },
+    "task": {
+      "goal_radius": 0.45,
+      "transition_goal": "successor_desired_goal",
+      "exclude_goal_switch": true,
+      "terminate_on_success": true
+    }
+  },
+  "maze": "umaze",
+  "condition": "uniform_severe",
+  "method": "iql",
+  "seed_index": 0,
+  "seeds": {
+    "data": 10000,
+    "init": 20000,
+    "batch": 30000
+  },
+  "dataset_id": "D4RL/pointmaze/umaze-v2",
+  "dataset_sha256": "1d4cb41832c2b5792c5465bf54c66c8a0d590c6523b4f2156e19e2fc39bd3e4a",
+  "manifest_sha256": "3b2c7cbcd77c796775945e29b1ae04f55e343bbaf2bf412f0d391abbbbda6150",
+  "n_train_transitions": 753606,
+  "normalizer_mean": [
+    0.4080544710159302,
+    -0.03173433616757393,
+    0.022989431396126747,
+    -0.0027597600128501654,
+    -0.0011109159095212817,
+    -0.00354278483428061
+  ],
+  "normalizer_std": [
+    0.6914533972740173,
+    0.8798713088035583,
+    2.6850850582122803,
+    2.4084417819976807,
+    0.8643994331359863,
+    0.949763298034668
+  ],
+  "parameter_counts": {
+    "actor": 68100,
+    "critic": 136706,
+    "value": 67841,
+    "target_critic": 136706
+  },
+  "device": "cuda",
+  "train_seconds": 319.5575461999979,
+  "updates_per_second": 625.8653640894721,
+  "dev_eval_seconds": 0.0,
+  "code_revision": {
+    "commit": null,
+    "dirty_src_or_configs": null,
+    "source_sha256": "b938f140c4a560714037e76bd004ed07faffbe95582d53b099d753f4f2e866dd",
+    "n_files": 18
+  },
+  "environment": {
+    "python": "3.10.2",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 165 Stepping 3, GenuineIntel",
+    "cpu_count": 12,
+    "numpy": "2.2.6",
+    "torch": "2.11.0+cu128",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.9",
+    "minari": "0.5.3",
+    "gymnasium": "1.2.3",
+    "gymnasium_robotics": "1.4.2",
+    "mujoco": "3.17.0",
+    "h5py": "3.16.0"
+  }
+}

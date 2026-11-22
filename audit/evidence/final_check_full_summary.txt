@@ -1,0 +1,33 @@
+scripts/final_check.ps1 -Full, 2026-11-22, final code after the independent-review corrections
+
+==== Summary
+
+Check                                                                 Result Seconds
+-----                                                                 ------ -------
+Files, environment, datasets, checkpoints, publication readiness      PASS        10
+Saved results: main study (offnav verify)                             PASS        18
+Saved results: pilot (offnav verify)                                  PASS         5
+Saved results: smoke (offnav verify)                                  PASS         8
+Automated tests (pytest)                                              PASS        42
+Independent recomputation of main-study results                       PASS         9
+Post hoc failure-aware reanalysis reproduces its saved files          PASS         8
+Reproduction: re-evaluation, table regeneration, smoke rerun, CPU job PASS       491
+
+
+
+ALL CHECKS PASSED
+
+Details from the same run:
+- offnav verify: main 727 checks, pilot 35, smoke 151; 0 problems; reuse states: main 100 legacy runs +
+  4 legacy references, pilot 4 + 4, smoke 20 + 4 (legacy = version-1 records whose fingerprints,
+  checkpoints and evaluation cases all match the current configuration).
+- integrity checks: all PASS except one WARN (248 local run records contain the user directory;
+  the public copy is redacted); 56/56 essential files; 248 checkpoint files match their SHA-256;
+  dataset and processed-cache checksums match.
+- tests: 81 passed.
+- independent recomputation: 100 runs, max deviation 2.8e-14 (tables) and 5.7e-14 (reanalysis),
+  166 paired rows, 26/26 documented claims, 100 run records, 124 checkpoints.
+- reanalysis: 7/7 files reproduced byte for byte.
+- reproduction: 6 policies re-evaluated identically; 20/20 tables regenerated identically; smoke
+  pipeline rerun with the current code: 20/20 runs identical to the saved (legacy) records, all 20
+  runs and 4 references classified valid by the reuse gate (4.2 min); CPU job trained and evaluated.

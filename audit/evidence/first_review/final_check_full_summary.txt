@@ -1,0 +1,39 @@
+final_check.ps1 -Full, 2026-11-22 (study machine, project .venv). Summary extracted from the console output.
+
+[PASS] essential files                              50/50 present
+[PASS] main-study run records                       100/100 runs with per-episode results
+[PASS] main-study figures                           13 PNG, 13 PDF
+[PASS] python version                               3.10.2
+[PASS] packages match requirements-lock.txt         all 67 pinned packages match; torch 2.11.0+cu128, numpy 2.2.6, pandas 2.3.3, matplotlib 3.10.9, minari 0.5.3, gymnasium 1.2.3, gymnasium-robotics 1.4.2, mujoco 3.17.0
+[PASS] GPU (optional)                               NVIDIA GeForce RTX 2060
+[PASS] python syntax                                37 files parsed
+[PASS] offnav imports                               14 modules import; imported from src\offnav
+[PASS] source/config digest (informational)         9d5ec5a0ca24909a9b0cc0f3b700a05c419cd84ebd659542387131d270a3f500
+[PASS] dataset umaze-v2 checksums                   2 files match the audit
+[PASS] processed cache umaze                        built from the audited dataset
+[PASS] dataset medium-v2 checksums                  2 files match the audit
+[PASS] processed cache medium                       built from the audited dataset
+[PASS] checkpoints vs index                         124 runs, 248 files match their SHA-256
+[PASS] git ignores local/large material             ignored: data, artifacts, .venv, backups, local_records, LOCAL_SETUP.md
+[PASS] size of what git would include               1222 files, 33.9 MB; no file > 10 MB
+[WARN] local user paths in files git would include  248 files, all under results/ (run_info.json command lines and grid logs; unmodified records)
+623 checks, 0 problem(s)
+27 checks, 0 problem(s)
+127 checks, 0 problem(s)
+55 passed in 22.12s
+reeval ok {'ok': True}
+tables ok {'analyze_exit': 0, 'tables_compared': 20, 'tables_differing': [], 'figures_regenerated': 22, 'regenerated_not_in_saved': [], 'saved_not_from_analyze': ['fig5b_failure_examples_cases.csv', 'fig5b_failure_examples_medium.pdf', 'fig5b_failure_examples_medium.png', 'fig5b_failure_examples_umaze.pdf', 'fig5b_failure_examples_umaze.png'], 'figure_names_consistent': True, 'ok': True}
+smoke_rerun ok {'exit_codes': {'prepare': 0, 'grid': 0, 'references': 0, 'analyze': 0, 'verify': 0}, 'manifest_selection_identical': True, 'runs_identical': 20, 'runs_total': 20, 'minutes': 4.2, 'ok': True}
+cpu_job ok {'exit_codes': [0, 0], 'device': 'cpu', 'updates': 600, 'episodes_evaluated': 16, 'seconds': 24.7, 'ok': True}
+ALL CHECKS PASSED
+
+Check                                                                 Result Seconds
+-----                                                                 ------ -------
+Files, environment, datasets, checkpoints, publication readiness      PASS         9
+Saved results: main study (offnav verify)                             PASS        12
+Saved results: pilot (offnav verify)                                  PASS         5
+Saved results: smoke (offnav verify)                                  PASS         6
+Automated tests (pytest)                                              PASS        24
+Independent recomputation of main-study results                       PASS         7
+Reproduction: re-evaluation, table regeneration, smoke rerun, CPU job PASS       497
+

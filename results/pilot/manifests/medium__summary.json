@@ -1,0 +1,216 @@
+{
+  "maze": "medium",
+  "dataset_id": "D4RL/pointmaze/medium-v2",
+  "dataset_sha256": "e5a6b0265c42cf7a2bfe34ea186a0351d0e6ac87e753ce0e90aa7c4c3e02a296",
+  "n_recorded_transitions": 1000000,
+  "n_goal_switch_excluded": 4747,
+  "holdout": {
+    "config": {
+      "block_starts": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "block_fraction": 0.01,
+      "gap_steps": 1000
+    },
+    "n_holdout_transitions": 49949,
+    "sha256": "71ebda3d567bbf5aa29c349424f7a869b023d30bcef93690213efdec59bccdf1",
+    "n_gap_transitions": 11264,
+    "n_holdout_episodes": 244,
+    "n_gap_episodes": 51
+  },
+  "eligible_pool": {
+    "n": 934091,
+    "cell_counts": {
+      "1-1": 4324,
+      "1-2": 10287,
+      "1-5": 9973,
+      "1-6": 3552,
+      "2-1": 9324,
+      "2-2": 27579,
+      "2-4": 38798,
+      "2-5": 28784,
+      "2-6": 10393,
+      "3-2": 54219,
+      "3-3": 21086,
+      "3-4": 51415,
+      "4-1": 58546,
+      "4-2": 56235,
+      "4-4": 75554,
+      "4-5": 32274,
+      "4-6": 28706,
+      "5-1": 52449,
+      "5-3": 65188,
+      "5-4": 66515,
+      "5-6": 21359,
+      "6-1": 70521,
+      "6-2": 49886,
+      "6-3": 63500,
+      "6-5": 7182,
+      "6-6": 16442
+    }
+  },
+  "region": {
+    "cell": [
+      3,
+      4
+    ],
+    "center_xy": [
+      0.5,
+      0.5
+    ],
+    "betweenness": 338.0,
+    "betweenness_ranking": [
+      {
+        "cell": [
+          3,
+          4
+        ],
+        "betweenness": 338.0
+      },
+      {
+        "cell": [
+          4,
+          4
+        ],
+        "betweenness": 290.0
+      },
+      {
+        "cell": [
+          3,
+          2
+        ],
+        "betweenness": 253.0
+      },
+      {
+        "cell": [
+          3,
+          3
+        ],
+        "betweenness": 221.0
+      },
+      {
+        "cell": [
+          2,
+          4
+        ],
+        "betweenness": 168.0
+      },
+      {
+        "cell": [
+          4,
+          5
+        ],
+        "betweenness": 168.0
+      }
+    ],
+    "is_articulation_point": true,
+    "n_pool_transitions_in_region": 51415,
+    "retention": 0.02,
+    "n_retained": 1028
+  },
+  "seeds": {
+    "100": {
+      "data_seed": 10100,
+      "conditions": {
+        "full": {
+          "sha256": "14157e17946536b0cd2eec1b6590eb0f512cbf40eec7e069526e4ddb6d398c03",
+          "n": 934091,
+          "stats": {
+            "n_transitions": 934091,
+            "n_region_transitions": 51415,
+            "region_fraction": 0.05504281702746306,
+            "region_fraction_of_reference": 1.0,
+            "occupied_bins_ge1": 1914,
+            "occupied_bins_ge5": 1762,
+            "bin_size_m": 0.1,
+            "occupied_cells": 26,
+            "cell_counts": [
+              4324,
+              10287,
+              9973,
+              3552,
+              9324,
+              27579,
+              38798,
+              28784,
+              10393,
+              54219,
+              21086,
+              51415,
+              58546,
+              56235,
+              75554,
+              32274,
+              28706,
+              52449,
+              65188,
+              66515,
+              21359,
+              70521,
+              49886,
+              63500,
+              7182,
+              16442
+            ],
+            "success_transitions": 4440,
+            "success_frequency": 0.004753284156322479,
+            "goal_cell_counts": [
+              50055,
+              41806,
+              33537,
+              40403,
+              41376,
+              44538,
+              27302,
+              38202,
+              37836,
+              43699,
+              31265,
+              31823,
+              35981,
+              35863,
+              34274,
+              33481,
+              28931,
+              37060,
+              27023,
+              24566,
+              34724,
+              29235,
+              30266,
+              30805,
+              50591,
+              39449
+            ],
+            "goal_cell_tv_distance_to_reference": 0.0,
+            "cell_occupancy_tv_distance_to_reference": 0.0,
+            "action_mean": [
+              -0.004037688951939344,
+              -0.0032187518663704395
+            ],
+            "action_std": [
+              0.8136543035507202,
+              0.8411746025085449
+            ],
+            "action_saturated_frac": 0.853863274563185,
+            "action_hist_tv_distance_to_reference": 0.0,
+            "region_action_mean_abs": [
+              0.6189342141151428,
+              0.8718481659889221
+            ],
+            "through_route_transitions": 319962,
+            "through_route_transitions_in_region": 0,
+            "region_crossings_total_in_recording_pool": 1744,
+            "region_crossings_fully_retained": 1744,
+            "region_crossings_partly_retained": 1744
+          }
+        }
+      }
+    }
+  },
+  "created_utc": "2026-11-21T20:28:35+00:00"
+}

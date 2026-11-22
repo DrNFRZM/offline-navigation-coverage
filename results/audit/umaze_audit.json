@@ -1,0 +1,407 @@
+{
+  "maze": "umaze",
+  "dataset_id": "D4RL/pointmaze/umaze-v2",
+  "checksums": {
+    "files": {
+      "data/main_data.hdf5": {
+        "sha256": "ccb24a753bcaf56126a40cd749b2a6ed7e0cd22d301dee4f6e1367bd9b11efe1",
+        "bytes": 556229176
+      },
+      "data/metadata.json": {
+        "sha256": "1f61076371370d48f98a2da43f3a8f581d0f694a98467d8c410ab1aaa778c7ee",
+        "bytes": 2867
+      }
+    },
+    "combined_sha256": "1d4cb41832c2b5792c5465bf54c66c8a0d590c6523b4f2156e19e2fc39bd3e4a"
+  },
+  "metadata": {
+    "total_episodes": 13210,
+    "total_steps": 1000000,
+    "data_format": "hdf5",
+    "dataset_id": "D4RL/pointmaze/umaze-v2",
+    "algorithm_name": "QIteration",
+    "author": [
+      "Rodrigo Perez-Vicente"
+    ],
+    "code_permalink": "https://github.com/rodrigodelazcano/d4rl-minari-dataset-generation",
+    "minari_version": "0.4.3",
+    "ref_max_score": 218.6999969482422,
+    "ref_min_score": 13.489999771118164,
+    "num_episodes_average_score": 100,
+    "dataset_size": 556.2,
+    "description": "The data is collected from the [`PointMaze_UMaze-v3`](https://robotics.farama.org/envs/maze/point_maze/) environment, which contains a U shape maze. The agent uses a PD controller to follow a path of waypoints generated with QIteration until it reaches the goal. The task is continuing which means that when the agent reaches the goal the environment generates a new random goal without resetting the location of the agent. The reward function is sparse, only returning a value of 1 if the goal is reached, otherwise 0. To add variance to the collected paths random noise is added to the actions taken by the agent.",
+    "requirements": [
+      "gymnasium-robotics>=1.2.4"
+    ]
+  },
+  "observation_space": "Dict('achieved_goal': Box(-inf, inf, (2,), float64), 'desired_goal': Box(-inf, inf, (2,), float64), 'observation': Box(-inf, inf, (4,), float64))",
+  "action_space": "Box(-1.0, 1.0, (2,), float32)",
+  "collection_env_spec": {
+    "id": "PointMaze_UMaze-v3",
+    "entry_point": "gymnasium_robotics.envs.maze.point_maze:PointMazeEnv",
+    "max_episode_steps": 1000000,
+    "kwargs": {
+      "maze_map": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "reward_type": "sparse",
+      "continuing_task": true,
+      "reset_target": true
+    }
+  },
+  "eval_env_spec": {
+    "id": "PointMaze_UMaze-v3",
+    "entry_point": "gymnasium_robotics.envs.maze.point_maze:PointMazeEnv",
+    "max_episode_steps": 300,
+    "kwargs": {
+      "maze_map": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          "g",
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "reward_type": "sparse",
+      "continuing_task": true,
+      "reset_target": false
+    }
+  },
+  "info_keys": [
+    "goal",
+    "qpos",
+    "qvel",
+    "success"
+  ],
+  "dtypes": {
+    "episode_id": "int64",
+    "step_in_episode": "int64",
+    "observation": "float64",
+    "desired_goal": "float64",
+    "achieved_goal": "float64",
+    "next_observation": "float64",
+    "next_desired_goal": "float64",
+    "next_achieved_goal": "float64",
+    "action": "float32",
+    "reward": "float64",
+    "terminated": "bool",
+    "truncated": "bool",
+    "info_success": "float64",
+    "info_goal_next": "float64"
+  },
+  "shapes": {
+    "episode_id": [],
+    "step_in_episode": [],
+    "observation": [
+      4
+    ],
+    "desired_goal": [
+      2
+    ],
+    "achieved_goal": [
+      2
+    ],
+    "next_observation": [
+      4
+    ],
+    "next_desired_goal": [
+      2
+    ],
+    "next_achieved_goal": [
+      2
+    ],
+    "action": [
+      2
+    ],
+    "reward": [],
+    "terminated": [],
+    "truncated": [],
+    "info_success": [],
+    "info_goal_next": [
+      2
+    ]
+  },
+  "counts": {
+    "episodes": 13210,
+    "transitions": 1000000,
+    "episode_length": {
+      "min": 1,
+      "median": 70.0,
+      "mean": 75.7002271006813,
+      "max": 190
+    },
+    "reported_total_episodes": 13210,
+    "reported_total_steps": 1000000
+  },
+  "termination": {
+    "terminated_transitions": 0,
+    "truncated_transitions": 13210,
+    "truncated_at_episode_end": 13210,
+    "episodes_ending_without_flag": 0,
+    "truncated_with_reward_1": 13205,
+    "last_episode_final_reward": 0.0,
+    "last_episode_truncated": true
+  },
+  "rewards": {
+    "values": {
+      "0.0": 986795,
+      "1.0": 13205
+    },
+    "nonzero_fraction": 0.013205,
+    "reward1_at_episode_end": 13205,
+    "reward1_not_at_episode_end": 0,
+    "recomputed_with_successor_goal_mismatches": 0,
+    "recomputed_with_current_goal_mismatches": 13052,
+    "goal_radius": 0.45,
+    "info_success_vs_reward_mismatches": 0,
+    "info_goal_vs_successor_desired_goal_max_abs": 0.0
+  },
+  "goals": {
+    "distinct_goals": 13210,
+    "goal_switch_transitions": 13205,
+    "goal_switch_at_step0": 13205,
+    "goal_switch_elsewhere": 0,
+    "goal_cell_counts": {
+      "1-1": 179849,
+      "1-2": 135988,
+      "1-3": 126210,
+      "2-3": 116687,
+      "3-1": 178593,
+      "3-2": 145476,
+      "3-3": 117197
+    },
+    "goal_in_wall_cell": 0,
+    "goal_offset_from_cell_center_max_abs": 0.2499957841666558
+  },
+  "continuity": {
+    "boundaries": 13209,
+    "exact_match_full_observation": 13205,
+    "exact_match_state_only": 13205,
+    "max_abs_state_difference": 3.7129559566613817,
+    "goal_differs_at_boundary": 4,
+    "discontinuities": [
+      {
+        "episode_id": 2655,
+        "global_step": 200000,
+        "previous_episode_final_reward": 0.0,
+        "first_velocity": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "episode_id": 5313,
+        "global_step": 400000,
+        "previous_episode_final_reward": 0.0,
+        "first_velocity": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "episode_id": 7903,
+        "global_step": 600000,
+        "previous_episode_final_reward": 0.0,
+        "first_velocity": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "episode_id": 10585,
+        "global_step": 800000,
+        "previous_episode_final_reward": 0.0,
+        "first_velocity": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "length1_episodes": 153
+  },
+  "within_episode": {
+    "achieved_goal_equals_position": true,
+    "step_displacement": {
+      "mean": 0.03382912662966546,
+      "p99": 0.053021403943815444,
+      "max": 0.06434161626032817
+    },
+    "speed_abs_max": 5.22625564833343
+  },
+  "occupancy": {
+    "cell_counts": {
+      "1-1": 78302,
+      "1-2": 131915,
+      "1-3": 190157,
+      "2-3": 186743,
+      "3-1": 76440,
+      "3-2": 133447,
+      "3-3": 202996
+    },
+    "outside_free_cells": 0,
+    "position_min": [
+      -1.3811504585700507,
+      -1.368965440129475
+    ],
+    "position_max": [
+      1.3445566260714061,
+      1.339757207085446
+    ]
+  },
+  "actions": {
+    "min": [
+      -1.0,
+      -1.0
+    ],
+    "max": [
+      1.0,
+      1.0
+    ],
+    "mean": [
+      0.0057007865980267525,
+      -0.0024757818318903446
+    ],
+    "std": [
+      0.8485772013664246,
+      0.786869466304779
+    ],
+    "fraction_any_component_at_bound": 0.870706,
+    "fraction_component_at_bound": [
+      0.621017,
+      0.491557
+    ]
+  },
+  "behaviour_routes": {
+    "segments_evaluated": 13052,
+    "fraction_raw_moves_equal_shortest": 0.8700582286239656,
+    "fraction_loop_erased_route_shortest": 1.0,
+    "raw_excess_cell_moves": {
+      "mean": 0.25988354275206865,
+      "p90": 2.0,
+      "max": 2
+    },
+    "loop_erased_excess_cells": {
+      "mean": 0.0,
+      "p90": 0.0,
+      "max": 0
+    },
+    "loop_erased_over_shortest_ratio_mean": 1.0
+  },
+  "evaluation_relation": {
+    "collection_env": "PointMaze_UMaze-v3",
+    "eval_env": "PointMaze_UMaze-v3",
+    "collection_continuing_task": true,
+    "collection_reset_target": true,
+    "eval_continuing_task": true,
+    "eval_reset_target": false,
+    "eval_max_episode_steps": 300,
+    "collection_max_episode_steps": 1000000,
+    "eval_goal_cells": [
+      [
+        1,
+        1
+      ]
+    ],
+    "eval_maze_map": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        "g",
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "same_walls_as_collection": true
+  }
+}

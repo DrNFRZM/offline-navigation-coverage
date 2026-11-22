@@ -1,0 +1,3 @@
+maze,seed,condition,n_transitions,n_region_transitions,region_fraction,occupied_bins_ge1,occupied_bins_ge5,success_transitions,success_frequency,goal_cell_tv_distance_to_reference,cell_occupancy_tv_distance_to_reference,action_hist_tv_distance_to_reference,action_saturated_frac,through_route_transitions,region_crossings_total_in_recording_pool,region_crossings_fully_retained,region_crossings_partly_retained
+umaze,100,full,926690,173431,0.18715104295934995,482,465,12288,0.013260098174214363,0.0,0.0,0.0,0.8772912192858453,313298,4671,4671,4671
+medium,100,full,934091,51415,0.05504281702746306,1914,1762,4440,0.004753284156322479,0.0,0.0,0.0,0.853863274563185,319962,1744,1744,1744

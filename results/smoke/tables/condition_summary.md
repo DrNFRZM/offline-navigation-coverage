@@ -1,0 +1,22 @@
+| maze | condition | method | n_seeds | success_pairs | success_through | success_avoid | fast_success_through | fast_success_avoid | success_benchmark | first_success_successes_pairs | holdout_action_mse | holdout_action_mse_region | success_pairs_sd |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| medium | full | bc | 1 | 0.083 | 0.143 | 0.000 | 0.000 | 0.000 | 0.250 | 325.000 | 0.557 | 0.600 | nan |
+| medium | full | iql | 1 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | nan | 0.619 | 0.635 | nan |
+| medium | restricted | bc | 1 | 0.083 | 0.143 | 0.000 | 0.143 | 0.000 | 0.250 | 192.000 | 0.558 | 0.683 | nan |
+| medium | restricted | iql | 1 | 0.083 | 0.143 | 0.000 | 0.000 | 0.000 | 0.000 | 204.000 | 0.617 | 0.664 | nan |
+| medium | uniform | bc | 1 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | nan | 0.557 | 0.605 | nan |
+| medium | uniform | iql | 1 | 0.083 | 0.143 | 0.000 | 0.000 | 0.000 | 0.000 | 231.000 | 0.615 | 0.634 | nan |
+| medium | restricted_severe | bc | 1 | 0.083 | 0.143 | 0.000 | 0.000 | 0.000 | 0.000 | 210.000 | 0.559 | 0.683 | nan |
+| medium | restricted_severe | iql | 1 | 0.167 | 0.286 | 0.000 | 0.143 | 0.000 | 0.000 | 249.000 | 0.614 | 0.658 | nan |
+| medium | uniform_severe | bc | 1 | 0.083 | 0.143 | 0.000 | 0.143 | 0.000 | 0.250 | 147.000 | 0.556 | 0.597 | nan |
+| medium | uniform_severe | iql | 1 | 0.083 | 0.143 | 0.000 | 0.000 | 0.000 | 0.000 | 230.000 | 0.615 | 0.630 | nan |
+| umaze | full | bc | 1 | 1.000 | 1.000 | 1.000 | 0.500 | 1.000 | 1.000 | 78.167 | 0.336 | 0.553 | nan |
+| umaze | full | iql | 1 | 0.667 | 0.875 | 0.333 | 0.375 | 0.333 | 0.500 | 95.375 | 0.389 | 0.610 | nan |
+| umaze | restricted | bc | 1 | 1.000 | 1.000 | 1.000 | 0.500 | 1.000 | 0.750 | 76.167 | 0.361 | 0.740 | nan |
+| umaze | restricted | iql | 1 | 0.750 | 0.875 | 0.333 | 0.500 | 0.333 | 0.500 | 85.556 | 0.396 | 0.725 | nan |
+| umaze | uniform | bc | 1 | 1.000 | 1.000 | 1.000 | 0.500 | 1.000 | 1.000 | 78.333 | 0.336 | 0.555 | nan |
+| umaze | uniform | iql | 1 | 0.667 | 0.875 | 0.333 | 0.375 | 0.333 | 0.500 | 95.625 | 0.388 | 0.610 | nan |
+| umaze | restricted_severe | bc | 1 | 1.000 | 1.000 | 1.000 | 0.500 | 1.000 | 0.750 | 76.750 | 0.362 | 0.749 | nan |
+| umaze | restricted_severe | iql | 1 | 0.750 | 0.875 | 0.333 | 0.500 | 0.333 | 0.500 | 85.222 | 0.398 | 0.729 | nan |
+| umaze | uniform_severe | bc | 1 | 1.000 | 1.000 | 1.000 | 0.500 | 1.000 | 1.000 | 77.833 | 0.336 | 0.556 | nan |
+| umaze | uniform_severe | iql | 1 | 0.667 | 0.875 | 0.333 | 0.375 | 0.333 | 0.500 | 95.375 | 0.390 | 0.611 | nan |

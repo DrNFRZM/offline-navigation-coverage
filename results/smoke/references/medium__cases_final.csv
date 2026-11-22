@@ -1,0 +1,17 @@
+case_id,suite,start_cell,goal_cell,reset_seed,category
+0,pairs,"(1, 1)","(6, 3)",1155653964,partial
+1,pairs,"(1, 6)","(5, 3)",1755663523,through
+2,pairs,"(2, 4)","(4, 1)",708093468,through
+3,pairs,"(2, 6)","(1, 5)",972122756,avoid
+4,pairs,"(3, 4)","(1, 1)",1693137747,endpoint
+5,pairs,"(4, 1)","(1, 5)",266112162,through
+6,pairs,"(4, 2)","(1, 5)",651105937,through
+7,pairs,"(5, 4)","(3, 2)",267191830,through
+8,pairs,"(6, 1)","(2, 2)",973879301,avoid
+9,pairs,"(6, 2)","(4, 2)",2097889540,avoid
+10,pairs,"(6, 5)","(3, 3)",287852352,through
+11,pairs,"(6, 5)","(4, 1)",823155374,through
+12,benchmark,,,865678546,benchmark
+13,benchmark,,,1941050025,benchmark
+14,benchmark,,,436916801,benchmark
+15,benchmark,,,1078591221,benchmark

@@ -1,0 +1,7 @@
+contrast,maze,method,metric,mean_diff,boot95,seeds -/0/+,sign_flip_p
+IQL - BC (full),medium,-,success_pairs,-0.040000000000000036,"[+nan, +nan]",1/0/0,1.0
+IQL - BC (full),medium,-,fast_success_pairs,0.44000000000000006,"[+nan, +nan]",0/0/1,1.0
+IQL - BC (full),medium,-,first_success_mean_successes_pairs,-110.94208333333331,"[+nan, +nan]",1/0/0,1.0
+IQL - BC (full),umaze,-,success_pairs,0.0,"[+nan, +nan]",0/1/0,1.0
+IQL - BC (full),umaze,-,fast_success_pairs,0.16666666666666663,"[+nan, +nan]",0/0/1,1.0
+IQL - BC (full),umaze,-,first_success_mean_successes_pairs,-17.88095238095238,"[+nan, +nan]",1/0/0,1.0

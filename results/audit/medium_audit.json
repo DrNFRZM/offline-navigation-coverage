@@ -1,0 +1,580 @@
+{
+  "maze": "medium",
+  "dataset_id": "D4RL/pointmaze/medium-v2",
+  "checksums": {
+    "files": {
+      "data/main_data.hdf5": {
+        "sha256": "cd615b7d67cd77da7456188562fb430b2dc7f2edfe14a60f55315abb4fa7f98c",
+        "bytes": 283951720
+      },
+      "data/metadata.json": {
+        "sha256": "c8d07f7a9ebf81a5846399e5641e336c9c8a266c67ce6b1f54d7b66c0e66294c",
+        "bytes": 3085
+      }
+    },
+    "combined_sha256": "e5a6b0265c42cf7a2bfe34ea186a0351d0e6ac87e753ce0e90aa7c4c3e02a296"
+  },
+  "metadata": {
+    "total_episodes": 4752,
+    "total_steps": 1000000,
+    "data_format": "hdf5",
+    "dataset_id": "D4RL/pointmaze/medium-v2",
+    "algorithm_name": "QIteration",
+    "author": [
+      "Rodrigo Perez-Vicente"
+    ],
+    "code_permalink": "https://github.com/rodrigodelazcano/d4rl-minari-dataset-generation",
+    "minari_version": "0.4.3",
+    "ref_max_score": 361.04998779296875,
+    "ref_min_score": 17.65999984741211,
+    "num_episodes_average_score": 100,
+    "dataset_size": 284.0,
+    "description": "The data is collected from the [`PointMaze_Medium-v3`](https://robotics.farama.org/envs/maze/point_maze/) environment. The agent uses a PD controller to follow a path of waypoints generated with QIteration until it reaches the goal. The task is continuing which means that when the agent reaches the goal the environment generates a new random goal without resetting the location of the agent. The reward function is sparse, only returning a value of 1 if the goal is reached, otherwise 0. To add variance to the collected paths random noise is added to the actions taken by the agent.",
+    "requirements": [
+      "gymnasium-robotics>=1.2.4"
+    ]
+  },
+  "observation_space": "Dict('achieved_goal': Box(-inf, inf, (2,), float64), 'desired_goal': Box(-inf, inf, (2,), float64), 'observation': Box(-inf, inf, (4,), float64))",
+  "action_space": "Box(-1.0, 1.0, (2,), float32)",
+  "collection_env_spec": {
+    "id": "PointMaze_Medium-v3",
+    "entry_point": "gymnasium_robotics.envs.maze.point_maze:PointMazeEnv",
+    "max_episode_steps": 1000000,
+    "kwargs": {
+      "maze_map": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "reward_type": "sparse",
+      "continuing_task": true,
+      "reset_target": true
+    }
+  },
+  "eval_env_spec": {
+    "id": "PointMaze_Medium-v3",
+    "entry_point": "gymnasium_robotics.envs.maze.point_maze:PointMazeEnv",
+    "max_episode_steps": 600,
+    "kwargs": {
+      "maze_map": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          "g",
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "reward_type": "sparse",
+      "continuing_task": true,
+      "reset_target": false
+    }
+  },
+  "info_keys": [
+    "goal",
+    "qpos",
+    "qvel",
+    "success"
+  ],
+  "dtypes": {
+    "episode_id": "int64",
+    "step_in_episode": "int64",
+    "observation": "float64",
+    "desired_goal": "float64",
+    "achieved_goal": "float64",
+    "next_observation": "float64",
+    "next_desired_goal": "float64",
+    "next_achieved_goal": "float64",
+    "action": "float32",
+    "reward": "float64",
+    "terminated": "bool",
+    "truncated": "bool",
+    "info_success": "float64",
+    "info_goal_next": "float64"
+  },
+  "shapes": {
+    "episode_id": [],
+    "step_in_episode": [],
+    "observation": [
+      4
+    ],
+    "desired_goal": [
+      2
+    ],
+    "achieved_goal": [
+      2
+    ],
+    "next_observation": [
+      4
+    ],
+    "next_desired_goal": [
+      2
+    ],
+    "next_achieved_goal": [
+      2
+    ],
+    "action": [
+      2
+    ],
+    "reward": [],
+    "terminated": [],
+    "truncated": [],
+    "info_success": [],
+    "info_goal_next": [
+      2
+    ]
+  },
+  "counts": {
+    "episodes": 4752,
+    "transitions": 1000000,
+    "episode_length": {
+      "min": 1,
+      "median": 205.0,
+      "mean": 210.43771043771045,
+      "max": 504
+    },
+    "reported_total_episodes": 4752,
+    "reported_total_steps": 1000000
+  },
+  "termination": {
+    "terminated_transitions": 0,
+    "truncated_transitions": 4752,
+    "truncated_at_episode_end": 4752,
+    "episodes_ending_without_flag": 0,
+    "truncated_with_reward_1": 4747,
+    "last_episode_final_reward": 0.0,
+    "last_episode_truncated": true
+  },
+  "rewards": {
+    "values": {
+      "0.0": 995253,
+      "1.0": 4747
+    },
+    "nonzero_fraction": 0.004747,
+    "reward1_at_episode_end": 4747,
+    "reward1_not_at_episode_end": 0,
+    "recomputed_with_successor_goal_mismatches": 0,
+    "recomputed_with_current_goal_mismatches": 4735,
+    "goal_radius": 0.45,
+    "info_success_vs_reward_mismatches": 0,
+    "info_goal_vs_successor_desired_goal_max_abs": 0.0
+  },
+  "goals": {
+    "distinct_goals": 4752,
+    "goal_switch_transitions": 4747,
+    "goal_switch_at_step0": 4747,
+    "goal_switch_elsewhere": 0,
+    "goal_cell_counts": {
+      "1-1": 52194,
+      "1-2": 45560,
+      "1-5": 35777,
+      "1-6": 42569,
+      "2-1": 44011,
+      "2-2": 46593,
+      "2-4": 29293,
+      "2-5": 41752,
+      "2-6": 41752,
+      "3-2": 45970,
+      "3-3": 33419,
+      "3-4": 33530,
+      "4-1": 37995,
+      "4-2": 39537,
+      "4-4": 36180,
+      "4-5": 35256,
+      "4-6": 31724,
+      "5-1": 39813,
+      "5-3": 28832,
+      "5-4": 25994,
+      "5-6": 37810,
+      "6-1": 32814,
+      "6-2": 31447,
+      "6-3": 33115,
+      "6-5": 54145,
+      "6-6": 42918
+    },
+    "goal_in_wall_cell": 0,
+    "goal_offset_from_cell_center_max_abs": 0.24996143158209783
+  },
+  "continuity": {
+    "boundaries": 4751,
+    "exact_match_full_observation": 4747,
+    "exact_match_state_only": 4747,
+    "max_abs_state_difference": 4.940088295067733,
+    "goal_differs_at_boundary": 4,
+    "discontinuities": [
+      {
+        "episode_id": 958,
+        "global_step": 200000,
+        "previous_episode_final_reward": 0.0,
+        "first_velocity": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "episode_id": 1916,
+        "global_step": 400000,
+        "previous_episode_final_reward": 0.0,
+        "first_velocity": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "episode_id": 2851,
+        "global_step": 600000,
+        "previous_episode_final_reward": 0.0,
+        "first_velocity": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "episode_id": 3813,
+        "global_step": 800000,
+        "previous_episode_final_reward": 0.0,
+        "first_velocity": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "length1_episodes": 12
+  },
+  "within_episode": {
+    "achieved_goal_equals_position": true,
+    "step_displacement": {
+      "mean": 0.03472924588250465,
+      "p99": 0.052714718508330344,
+      "max": 0.06423067812800173
+    },
+    "speed_abs_max": 5.22625564833343
+  },
+  "occupancy": {
+    "cell_counts": {
+      "1-1": 4712,
+      "1-2": 11209,
+      "1-5": 10747,
+      "1-6": 3854,
+      "2-1": 9877,
+      "2-2": 29467,
+      "2-4": 41949,
+      "2-5": 31168,
+      "2-6": 11399,
+      "3-2": 57668,
+      "3-3": 22542,
+      "3-4": 55479,
+      "4-1": 62166,
+      "4-2": 59705,
+      "4-4": 81224,
+      "4-5": 34833,
+      "4-6": 31099,
+      "5-1": 55916,
+      "5-3": 69491,
+      "5-4": 71074,
+      "5-6": 22995,
+      "6-1": 75082,
+      "6-2": 53125,
+      "6-3": 67677,
+      "6-5": 7757,
+      "6-6": 17785
+    },
+    "outside_free_cells": 0,
+    "position_min": [
+      -2.843572672329974,
+      -2.86350200627378
+    ],
+    "position_max": [
+      2.824202458595004,
+      2.825195978006906
+    ]
+  },
+  "actions": {
+    "min": [
+      -1.0,
+      -1.0
+    ],
+    "max": [
+      1.0,
+      1.0
+    ],
+    "mean": [
+      -0.004471662454307079,
+      -0.003924836870282888
+    ],
+    "std": [
+      0.8126922249794006,
+      0.8402142524719238
+    ],
+    "fraction_any_component_at_bound": 0.851307,
+    "fraction_component_at_bound": [
+      0.539279,
+      0.595123
+    ]
+  },
+  "behaviour_routes": {
+    "segments_evaluated": 4735,
+    "fraction_raw_moves_equal_shortest": 0.5178458289334741,
+    "fraction_loop_erased_route_shortest": 0.6052798310454065,
+    "raw_excess_cell_moves": {
+      "mean": 2.4272439281942977,
+      "p90": 8.0,
+      "max": 10
+    },
+    "loop_erased_excess_cells": {
+      "mean": 2.137909186906019,
+      "p90": 8.0,
+      "max": 10
+    },
+    "loop_erased_over_shortest_ratio_mean": 1.4833811047573617
+  },
+  "evaluation_relation": {
+    "collection_env": "PointMaze_Medium-v3",
+    "eval_env": "PointMaze_Medium-v3",
+    "collection_continuing_task": true,
+    "collection_reset_target": true,
+    "eval_continuing_task": true,
+    "eval_reset_target": false,
+    "eval_max_episode_steps": 600,
+    "collection_max_episode_steps": 1000000,
+    "eval_goal_cells": [
+      [
+        6,
+        6
+      ]
+    ],
+    "eval_maze_map": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        "g",
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "same_walls_as_collection": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "mode": "main",
+  "description": "Frozen study. Core: 2 mazes x 3 conditions (full, restricted 2%, uniform) x 2 methods x 5 paired seeds. Secondary (run after the core): restricted 0.2% and its count-matched uniform. Fixed final checkpoint, final evaluation suite.",
+  "mazes": ["umaze", "medium"],
+  "conditions": ["full", "restricted", "uniform", "restricted_severe", "uniform_severe"],
+  "methods": ["bc", "iql"],
+  "seeds": [0, 1, 2, 3, 4],
+  "seed_offsets": {"data": 10000, "init": 20000, "batch": 30000},
+  "holdout": {"block_starts": [0.1, 0.3, 0.5, 0.7, 0.9], "block_fraction": 0.01, "gap_steps": 1000},
+  "restriction": {"rule": "max_betweenness_free_cell_tiebreak_pool_occupancy", "retention": 0.02, "severe_retention": 0.002},
+  "task": {"goal_radius": 0.45, "transition_goal": "successor_desired_goal", "exclude_goal_switch": true,
+           "terminate_on_success": true},
+  "training": {
+    "steps": 200000,
+    "batch_size": 256,
+    "log_every": 1000,
+    "checkpoint_every": 25000,
+    "obs_std_floor": 0.001,
+    "device": "auto",
+    "network": {"hidden": [256, 256], "log_std_min": -5.0, "log_std_max": 2.0}
+  },
+  "bc": {"actor_lr": 0.0003},
+  "iql": {"actor_lr": 0.0003, "critic_lr": 0.0003, "value_lr": 0.0003, "discount": 0.99, "expectile": 0.9,
+          "beta": 10.0, "max_adv_weight": 100.0, "polyak": 0.005, "reward_shift": -1.0},
+  "evaluation": {
+    "run_suite": "final",
+    "horizon": {"umaze": 300, "medium": 600},
+    "num_envs": 64,
+    "random_policy_seed": 70001,
+    "final": {"seed": 90001, "pair_repeats": {"umaze": 5, "medium": 1}, "max_pairs": {"umaze": null, "medium": null},
+              "benchmark_episodes": 50},
+    "dev": {"seed": 80001, "pair_repeats": {"umaze": 1, "medium": 1}, "max_pairs": {"umaze": null, "medium": 100},
+            "benchmark_episodes": 20}
+  },
+  "diagnostics": {"train_subsample": 50000},
+  "dev_eval": {"enabled": false}
+}

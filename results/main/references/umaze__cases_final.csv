@@ -1,0 +1,261 @@
+case_id,suite,start_cell,goal_cell,reset_seed,category
+0,pairs,"(1, 1)","(1, 2)",811105262,avoid
+1,pairs,"(1, 1)","(1, 3)",977759893,avoid
+2,pairs,"(1, 1)","(2, 3)",171277392,endpoint
+3,pairs,"(1, 1)","(3, 1)",621126639,through
+4,pairs,"(1, 1)","(3, 2)",1862593183,through
+5,pairs,"(1, 1)","(3, 3)",1548752423,through
+6,pairs,"(1, 2)","(1, 1)",1574037445,avoid
+7,pairs,"(1, 2)","(1, 3)",571007614,avoid
+8,pairs,"(1, 2)","(2, 3)",2132599161,endpoint
+9,pairs,"(1, 2)","(3, 1)",376472280,through
+10,pairs,"(1, 2)","(3, 2)",2020063426,through
+11,pairs,"(1, 2)","(3, 3)",1717974012,through
+12,pairs,"(1, 3)","(1, 1)",224317982,avoid
+13,pairs,"(1, 3)","(1, 2)",1787515332,avoid
+14,pairs,"(1, 3)","(2, 3)",1932138897,endpoint
+15,pairs,"(1, 3)","(3, 1)",1290819246,through
+16,pairs,"(1, 3)","(3, 2)",1941272247,through
+17,pairs,"(1, 3)","(3, 3)",213235816,through
+18,pairs,"(2, 3)","(1, 1)",409370467,endpoint
+19,pairs,"(2, 3)","(1, 2)",2125775946,endpoint
+20,pairs,"(2, 3)","(1, 3)",497266785,endpoint
+21,pairs,"(2, 3)","(3, 1)",944972618,endpoint
+22,pairs,"(2, 3)","(3, 2)",2011054956,endpoint
+23,pairs,"(2, 3)","(3, 3)",956562470,endpoint
+24,pairs,"(3, 1)","(1, 1)",87913361,through
+25,pairs,"(3, 1)","(1, 2)",1133312637,through
+26,pairs,"(3, 1)","(1, 3)",631456565,through
+27,pairs,"(3, 1)","(2, 3)",203911012,endpoint
+28,pairs,"(3, 1)","(3, 2)",1288559716,avoid
+29,pairs,"(3, 1)","(3, 3)",923835035,avoid
+30,pairs,"(3, 2)","(1, 1)",1909898299,through
+31,pairs,"(3, 2)","(1, 2)",995739910,through
+32,pairs,"(3, 2)","(1, 3)",1314846915,through
+33,pairs,"(3, 2)","(2, 3)",1178082696,endpoint
+34,pairs,"(3, 2)","(3, 1)",787258632,avoid
+35,pairs,"(3, 2)","(3, 3)",1458536480,avoid
+36,pairs,"(3, 3)","(1, 1)",1375223060,through
+37,pairs,"(3, 3)","(1, 2)",503075700,through
+38,pairs,"(3, 3)","(1, 3)",1301319467,through
+39,pairs,"(3, 3)","(2, 3)",897050518,endpoint
+40,pairs,"(3, 3)","(3, 1)",2010866996,avoid
+41,pairs,"(3, 3)","(3, 2)",458770237,avoid
+42,pairs,"(1, 1)","(1, 2)",298151060,avoid
+43,pairs,"(1, 1)","(1, 3)",415484856,avoid
+44,pairs,"(1, 1)","(2, 3)",803631983,endpoint
+45,pairs,"(1, 1)","(3, 1)",911146639,through
+46,pairs,"(1, 1)","(3, 2)",1751924441,through
+47,pairs,"(1, 1)","(3, 3)",775849518,through
+48,pairs,"(1, 2)","(1, 1)",296597026,avoid
+49,pairs,"(1, 2)","(1, 3)",1301343853,avoid
+50,pairs,"(1, 2)","(2, 3)",59671214,endpoint
+51,pairs,"(1, 2)","(3, 1)",952649358,through
+52,pairs,"(1, 2)","(3, 2)",143491107,through
+53,pairs,"(1, 2)","(3, 3)",204448925,through
+54,pairs,"(1, 3)","(1, 1)",1083901696,avoid
+55,pairs,"(1, 3)","(1, 2)",1636434888,avoid
+56,pairs,"(1, 3)","(2, 3)",1123845230,endpoint
+57,pairs,"(1, 3)","(3, 1)",2120598813,through
+58,pairs,"(1, 3)","(3, 2)",1018128524,through
+59,pairs,"(1, 3)","(3, 3)",2101123417,through
+60,pairs,"(2, 3)","(1, 1)",79033874,endpoint
+61,pairs,"(2, 3)","(1, 2)",1677969050,endpoint
+62,pairs,"(2, 3)","(1, 3)",1819301922,endpoint
+63,pairs,"(2, 3)","(3, 1)",58692122,endpoint
+64,pairs,"(2, 3)","(3, 2)",1552423258,endpoint
+65,pairs,"(2, 3)","(3, 3)",1483791733,endpoint
+66,pairs,"(3, 1)","(1, 1)",969375857,through
+67,pairs,"(3, 1)","(1, 2)",741154673,through
+68,pairs,"(3, 1)","(1, 3)",1075370189,through
+69,pairs,"(3, 1)","(2, 3)",1218614514,endpoint
+70,pairs,"(3, 1)","(3, 2)",188917343,avoid
+71,pairs,"(3, 1)","(3, 3)",1277038611,avoid
+72,pairs,"(3, 2)","(1, 1)",65754765,through
+73,pairs,"(3, 2)","(1, 2)",1506644724,through
+74,pairs,"(3, 2)","(1, 3)",928729746,through
+75,pairs,"(3, 2)","(2, 3)",177887777,endpoint
+76,pairs,"(3, 2)","(3, 1)",670897645,avoid
+77,pairs,"(3, 2)","(3, 3)",292933996,avoid
+78,pairs,"(3, 3)","(1, 1)",1590637679,through
+79,pairs,"(3, 3)","(1, 2)",1164823644,through
+80,pairs,"(3, 3)","(1, 3)",1180367153,through
+81,pairs,"(3, 3)","(2, 3)",458980625,endpoint
+82,pairs,"(3, 3)","(3, 1)",2098200569,avoid
+83,pairs,"(3, 3)","(3, 2)",871411171,avoid
+84,pairs,"(1, 1)","(1, 2)",1987013112,avoid
+85,pairs,"(1, 1)","(1, 3)",1870942153,avoid
+86,pairs,"(1, 1)","(2, 3)",510913075,endpoint
+87,pairs,"(1, 1)","(3, 1)",2032175196,through
+88,pairs,"(1, 1)","(3, 2)",216006421,through
+89,pairs,"(1, 1)","(3, 3)",1346752074,through
+90,pairs,"(1, 2)","(1, 1)",491140531,avoid
+91,pairs,"(1, 2)","(1, 3)",198982382,avoid
+92,pairs,"(1, 2)","(2, 3)",1674409180,endpoint
+93,pairs,"(1, 2)","(3, 1)",351331933,through
+94,pairs,"(1, 2)","(3, 2)",242848569,through
+95,pairs,"(1, 2)","(3, 3)",2129504521,through
+96,pairs,"(1, 3)","(1, 1)",1627954382,avoid
+97,pairs,"(1, 3)","(1, 2)",257641743,avoid
+98,pairs,"(1, 3)","(2, 3)",625273857,endpoint
+99,pairs,"(1, 3)","(3, 1)",1316396270,through
+100,pairs,"(1, 3)","(3, 2)",373957751,through
+101,pairs,"(1, 3)","(3, 3)",91234627,through
+102,pairs,"(2, 3)","(1, 1)",1949630536,endpoint
+103,pairs,"(2, 3)","(1, 2)",1449425766,endpoint
+104,pairs,"(2, 3)","(1, 3)",542532902,endpoint
+105,pairs,"(2, 3)","(3, 1)",1865235790,endpoint
+106,pairs,"(2, 3)","(3, 2)",270366293,endpoint
+107,pairs,"(2, 3)","(3, 3)",2129307609,endpoint
+108,pairs,"(3, 1)","(1, 1)",1776588717,through
+109,pairs,"(3, 1)","(1, 2)",2109232075,through
+110,pairs,"(3, 1)","(1, 3)",1918797840,through
+111,pairs,"(3, 1)","(2, 3)",1630811761,endpoint
+112,pairs,"(3, 1)","(3, 2)",1843833305,avoid
+113,pairs,"(3, 1)","(3, 3)",1361803210,avoid
+114,pairs,"(3, 2)","(1, 1)",1549574940,through
+115,pairs,"(3, 2)","(1, 2)",1841939674,through
+116,pairs,"(3, 2)","(1, 3)",753950152,through
+117,pairs,"(3, 2)","(2, 3)",39498232,endpoint
+118,pairs,"(3, 2)","(3, 1)",1095252241,avoid
+119,pairs,"(3, 2)","(3, 3)",817294895,avoid
+120,pairs,"(3, 3)","(1, 1)",56487916,through
+121,pairs,"(3, 3)","(1, 2)",1950254352,through
+122,pairs,"(3, 3)","(1, 3)",129664145,through
+123,pairs,"(3, 3)","(2, 3)",2013454564,endpoint
+124,pairs,"(3, 3)","(3, 1)",1046322513,avoid
+125,pairs,"(3, 3)","(3, 2)",2126916996,avoid
+126,pairs,"(1, 1)","(1, 2)",299858213,avoid
+127,pairs,"(1, 1)","(1, 3)",54015053,avoid
+128,pairs,"(1, 1)","(2, 3)",1729259134,endpoint
+129,pairs,"(1, 1)","(3, 1)",1673241400,through
+130,pairs,"(1, 1)","(3, 2)",1507601306,through
+131,pairs,"(1, 1)","(3, 3)",614123982,through
+132,pairs,"(1, 2)","(1, 1)",1656489218,avoid
+133,pairs,"(1, 2)","(1, 3)",1329278621,avoid
+134,pairs,"(1, 2)","(2, 3)",1488333588,endpoint
+135,pairs,"(1, 2)","(3, 1)",736956473,through
+136,pairs,"(1, 2)","(3, 2)",290806099,through
+137,pairs,"(1, 2)","(3, 3)",1896747608,through
+138,pairs,"(1, 3)","(1, 1)",1043216233,avoid
+139,pairs,"(1, 3)","(1, 2)",1753572158,avoid
+140,pairs,"(1, 3)","(2, 3)",767369655,endpoint
+141,pairs,"(1, 3)","(3, 1)",873045795,through
+142,pairs,"(1, 3)","(3, 2)",232784970,through
+143,pairs,"(1, 3)","(3, 3)",2031396420,through
+144,pairs,"(2, 3)","(1, 1)",804936091,endpoint
+145,pairs,"(2, 3)","(1, 2)",953611454,endpoint
+146,pairs,"(2, 3)","(1, 3)",1887913056,endpoint
+147,pairs,"(2, 3)","(3, 1)",1964900310,endpoint
+148,pairs,"(2, 3)","(3, 2)",1114384967,endpoint
+149,pairs,"(2, 3)","(3, 3)",1706450497,endpoint
+150,pairs,"(3, 1)","(1, 1)",156592031,through
+151,pairs,"(3, 1)","(1, 2)",880088312,through
+152,pairs,"(3, 1)","(1, 3)",1755263221,through
+153,pairs,"(3, 1)","(2, 3)",1053720367,endpoint
+154,pairs,"(3, 1)","(3, 2)",424502373,avoid
+155,pairs,"(3, 1)","(3, 3)",121998422,avoid
+156,pairs,"(3, 2)","(1, 1)",1596026841,through
+157,pairs,"(3, 2)","(1, 2)",1482741921,through
+158,pairs,"(3, 2)","(1, 3)",1867520848,through
+159,pairs,"(3, 2)","(2, 3)",1966378568,endpoint
+160,pairs,"(3, 2)","(3, 1)",1253611256,avoid
+161,pairs,"(3, 2)","(3, 3)",2072041713,avoid
+162,pairs,"(3, 3)","(1, 1)",255303735,through
+163,pairs,"(3, 3)","(1, 2)",529990422,through
+164,pairs,"(3, 3)","(1, 3)",1438393746,through
+165,pairs,"(3, 3)","(2, 3)",2139288746,endpoint
+166,pairs,"(3, 3)","(3, 1)",1339444749,avoid
+167,pairs,"(3, 3)","(3, 2)",651126805,avoid
+168,pairs,"(1, 1)","(1, 2)",1440789825,avoid
+169,pairs,"(1, 1)","(1, 3)",117284202,avoid
+170,pairs,"(1, 1)","(2, 3)",270400918,endpoint
+171,pairs,"(1, 1)","(3, 1)",1296915652,through
+172,pairs,"(1, 1)","(3, 2)",1547280486,through
+173,pairs,"(1, 1)","(3, 3)",548359787,through
+174,pairs,"(1, 2)","(1, 1)",1879760931,avoid
+175,pairs,"(1, 2)","(1, 3)",461887086,avoid
+176,pairs,"(1, 2)","(2, 3)",1114410152,endpoint
+177,pairs,"(1, 2)","(3, 1)",1960248898,through
+178,pairs,"(1, 2)","(3, 2)",1063186719,through
+179,pairs,"(1, 2)","(3, 3)",1581670420,through
+180,pairs,"(1, 3)","(1, 1)",342193316,avoid
+181,pairs,"(1, 3)","(1, 2)",467821990,avoid
+182,pairs,"(1, 3)","(2, 3)",465257407,endpoint
+183,pairs,"(1, 3)","(3, 1)",1556326775,through
+184,pairs,"(1, 3)","(3, 2)",617586619,through
+185,pairs,"(1, 3)","(3, 3)",508772989,through
+186,pairs,"(2, 3)","(1, 1)",673985821,endpoint
+187,pairs,"(2, 3)","(1, 2)",1727026456,endpoint
+188,pairs,"(2, 3)","(1, 3)",1268831942,endpoint
+189,pairs,"(2, 3)","(3, 1)",76579297,endpoint
+190,pairs,"(2, 3)","(3, 2)",1931295594,endpoint
+191,pairs,"(2, 3)","(3, 3)",45928800,endpoint
+192,pairs,"(3, 1)","(1, 1)",1264106416,through
+193,pairs,"(3, 1)","(1, 2)",665571019,through
+194,pairs,"(3, 1)","(1, 3)",108807310,through
+195,pairs,"(3, 1)","(2, 3)",1733315506,endpoint
+196,pairs,"(3, 1)","(3, 2)",849726847,avoid
+197,pairs,"(3, 1)","(3, 3)",1592239448,avoid
+198,pairs,"(3, 2)","(1, 1)",852314335,through
+199,pairs,"(3, 2)","(1, 2)",1857433174,through
+200,pairs,"(3, 2)","(1, 3)",168722027,through
+201,pairs,"(3, 2)","(2, 3)",1277692426,endpoint
+202,pairs,"(3, 2)","(3, 1)",1031307846,avoid
+203,pairs,"(3, 2)","(3, 3)",2112447068,avoid
+204,pairs,"(3, 3)","(1, 1)",1005556441,through
+205,pairs,"(3, 3)","(1, 2)",1538810022,through
+206,pairs,"(3, 3)","(1, 3)",166920734,through
+207,pairs,"(3, 3)","(2, 3)",66789072,endpoint
+208,pairs,"(3, 3)","(3, 1)",1225708769,avoid
+209,pairs,"(3, 3)","(3, 2)",1745181201,avoid
+210,benchmark,,,216989761,benchmark
+211,benchmark,,,732611948,benchmark
+212,benchmark,,,422496508,benchmark
+213,benchmark,,,305343529,benchmark
+214,benchmark,,,68467265,benchmark
+215,benchmark,,,973623616,benchmark
+216,benchmark,,,962547422,benchmark
+217,benchmark,,,403905791,benchmark
+218,benchmark,,,1036053427,benchmark
+219,benchmark,,,623163129,benchmark
+220,benchmark,,,1889548883,benchmark
+221,benchmark,,,109345843,benchmark
+222,benchmark,,,1591509731,benchmark
+223,benchmark,,,138550863,benchmark
+224,benchmark,,,550268855,benchmark
+225,benchmark,,,72844863,benchmark
+226,benchmark,,,2124030333,benchmark
+227,benchmark,,,461836537,benchmark
+228,benchmark,,,415399059,benchmark
+229,benchmark,,,1254016518,benchmark
+230,benchmark,,,2034187864,benchmark
+231,benchmark,,,5449976,benchmark
+232,benchmark,,,437346907,benchmark
+233,benchmark,,,703815075,benchmark
+234,benchmark,,,1371763112,benchmark
+235,benchmark,,,1293190870,benchmark
+236,benchmark,,,1484501138,benchmark
+237,benchmark,,,7810856,benchmark
+238,benchmark,,,1867049061,benchmark
+239,benchmark,,,1363047818,benchmark
+240,benchmark,,,170205021,benchmark
+241,benchmark,,,2096648104,benchmark
+242,benchmark,,,987504850,benchmark
+243,benchmark,,,628820088,benchmark
+244,benchmark,,,1040121755,benchmark
+245,benchmark,,,1355459003,benchmark
+246,benchmark,,,2112251542,benchmark
+247,benchmark,,,1892005691,benchmark
+248,benchmark,,,187863952,benchmark
+249,benchmark,,,1705449254,benchmark
+250,benchmark,,,1237080052,benchmark
+251,benchmark,,,125108239,benchmark
+252,benchmark,,,1722253538,benchmark
+253,benchmark,,,817914341,benchmark
+254,benchmark,,,1879281472,benchmark
+255,benchmark,,,373947035,benchmark
+256,benchmark,,,426382864,benchmark
+257,benchmark,,,2144415072,benchmark
+258,benchmark,,,248587131,benchmark
+259,benchmark,,,176924494,benchmark

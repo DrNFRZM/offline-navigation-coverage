@@ -1,0 +1,1006 @@
+{
+  "jobs": {
+    "medium__full__iql__s0": {
+      "train": [
+        0,
+        321.5355399999971
+      ],
+      "evaluate": [
+        0,
+        53.03824000000168
+      ]
+    },
+    "medium__restricted__iql__s0": {
+      "train": [
+        0,
+        322.26167119999445
+      ],
+      "evaluate": [
+        0,
+        50.43457859999762
+      ]
+    },
+    "medium__uniform__iql__s0": {
+      "train": [
+        0,
+        321.311687100002
+      ],
+      "evaluate": [
+        0,
+        50.25306699999783
+      ]
+    },
+    "umaze__full__iql__s0": {
+      "train": [
+        0,
+        320.78071510000154
+      ],
+      "evaluate": [
+        0,
+        20.218222400006198
+      ]
+    },
+    "umaze__restricted__iql__s0": {
+      "train": [
+        0,
+        320.8282842999979
+      ],
+      "evaluate": [
+        0,
+        19.80053589999443
+      ]
+    },
+    "umaze__uniform__iql__s0": {
+      "train": [
+        0,
+        319.9315251000007
+      ],
+      "evaluate": [
+        0,
+        20.203543699994043
+      ]
+    },
+    "medium__full__bc__s0": {
+      "train": [
+        0,
+        98.01579990000027
+      ],
+      "evaluate": [
+        0,
+        49.70869610000227
+      ]
+    },
+    "medium__restricted__bc__s0": {
+      "train": [
+        0,
+        96.59364440000354
+      ],
+      "evaluate": [
+        0,
+        50.63975780000328
+      ]
+    },
+    "medium__uniform__bc__s0": {
+      "train": [
+        0,
+        99.58456170000136
+      ],
+      "evaluate": [
+        0,
+        54.115110699996876
+      ]
+    },
+    "umaze__full__bc__s0": {
+      "train": [
+        0,
+        109.50542069999938
+      ],
+      "evaluate": [
+        0,
+        20.262561900002765
+      ]
+    },
+    "umaze__restricted__bc__s0": {
+      "train": [
+        0,
+        107.69275090000156
+      ],
+      "evaluate": [
+        0,
+        20.47482409999793
+      ]
+    },
+    "umaze__uniform__bc__s0": {
+      "train": [
+        0,
+        100.38146459999552
+      ],
+      "evaluate": [
+        0,
+        20.298280000002705
+      ]
+    },
+    "medium__full__iql__s1": {
+      "train": [
+        0,
+        346.85118859999784
+      ],
+      "evaluate": [
+        0,
+        53.971946199999365
+      ]
+    },
+    "medium__restricted__iql__s1": {
+      "train": [
+        0,
+        349.32686969999486
+      ],
+      "evaluate": [
+        0,
+        54.512057100000675
+      ]
+    },
+    "medium__uniform__iql__s1": {
+      "train": [
+        0,
+        350.63185440000234
+      ],
+      "evaluate": [
+        0,
+        53.30952700000489
+      ]
+    },
+    "umaze__full__iql__s1": {
+      "train": [
+        0,
+        362.3854554999998
+      ],
+      "evaluate": [
+        0,
+        20.277109499998915
+      ]
+    },
+    "umaze__restricted__iql__s1": {
+      "train": [
+        0,
+        357.0252593999976
+      ],
+      "evaluate": [
+        0,
+        20.138079800002743
+      ]
+    },
+    "umaze__uniform__iql__s1": {
+      "train": [
+        0,
+        353.39698760000465
+      ],
+      "evaluate": [
+        0,
+        20.0675895999957
+      ]
+    },
+    "medium__full__bc__s1": {
+      "train": [
+        0,
+        107.74785310000152
+      ],
+      "evaluate": [
+        0,
+        51.16158749999886
+      ]
+    },
+    "medium__restricted__bc__s1": {
+      "train": [
+        0,
+        108.00336519999837
+      ],
+      "evaluate": [
+        0,
+        52.07399099999748
+      ]
+    },
+    "medium__uniform__bc__s1": {
+      "train": [
+        0,
+        106.82132519999868
+      ],
+      "evaluate": [
+        0,
+        51.86726279999857
+      ]
+    },
+    "umaze__full__bc__s1": {
+      "train": [
+        0,
+        107.14702260000195
+      ],
+      "evaluate": [
+        0,
+        20.002315400000953
+      ]
+    },
+    "umaze__restricted__bc__s1": {
+      "train": [
+        0,
+        107.51952299999539
+      ],
+      "evaluate": [
+        0,
+        20.205856299995503
+      ]
+    },
+    "umaze__uniform__bc__s1": {
+      "train": [
+        0,
+        107.81044240000483
+      ],
+      "evaluate": [
+        0,
+        21.077503100001195
+      ]
+    },
+    "medium__full__iql__s2": {
+      "train": [
+        0,
+        355.45421489999717
+      ],
+      "evaluate": [
+        0,
+        53.03718030000164
+      ]
+    },
+    "medium__restricted__iql__s2": {
+      "train": [
+        0,
+        357.11554780000006
+      ],
+      "evaluate": [
+        0,
+        57.89356409999891
+      ]
+    },
+    "medium__uniform__iql__s2": {
+      "train": [
+        0,
+        360.072797300003
+      ],
+      "evaluate": [
+        0,
+        58.90957350000099
+      ]
+    },
+    "umaze__full__iql__s2": {
+      "train": [
+        0,
+        340.9536958999961
+      ],
+      "evaluate": [
+        0,
+        20.256500499999675
+      ]
+    },
+    "umaze__restricted__iql__s2": {
+      "train": [
+        0,
+        329.3633559000009
+      ],
+      "evaluate": [
+        0,
+        20.508917499995732
+      ]
+    },
+    "umaze__uniform__iql__s2": {
+      "train": [
+        0,
+        354.90632170000026
+      ],
+      "evaluate": [
+        0,
+        20.218439299998863
+      ]
+    },
+    "medium__full__bc__s2": {
+      "train": [
+        0,
+        106.6555548000033
+      ],
+      "evaluate": [
+        0,
+        50.50672929999564
+      ]
+    },
+    "medium__restricted__bc__s2": {
+      "train": [
+        0,
+        106.66085309999471
+      ],
+      "evaluate": [
+        0,
+        51.158091699995566
+      ]
+    },
+    "medium__uniform__bc__s2": {
+      "train": [
+        0,
+        107.00065589999576
+      ],
+      "evaluate": [
+        0,
+        51.32147009999608
+      ]
+    },
+    "umaze__full__bc__s2": {
+      "train": [
+        0,
+        108.06923229999666
+      ],
+      "evaluate": [
+        0,
+        21.306456099999195
+      ]
+    },
+    "umaze__restricted__bc__s2": {
+      "train": [
+        0,
+        110.21556060000148
+      ],
+      "evaluate": [
+        0,
+        21.735145700004068
+      ]
+    },
+    "umaze__uniform__bc__s2": {
+      "train": [
+        0,
+        109.29485640000348
+      ],
+      "evaluate": [
+        0,
+        20.24367340000026
+      ]
+    },
+    "medium__full__iql__s3": {
+      "train": [
+        0,
+        339.7670935999995
+      ],
+      "evaluate": [
+        0,
+        56.63996760000009
+      ]
+    },
+    "medium__restricted__iql__s3": {
+      "train": [
+        0,
+        328.13583420000214
+      ],
+      "evaluate": [
+        0,
+        53.95643370000471
+      ]
+    },
+    "medium__uniform__iql__s3": {
+      "train": [
+        0,
+        328.9376512000017
+      ],
+      "evaluate": [
+        0,
+        49.6704757999978
+      ]
+    },
+    "umaze__full__iql__s3": {
+      "train": [
+        0,
+        327.35988609999913
+      ],
+      "evaluate": [
+        0,
+        20.351603000002797
+      ]
+    },
+    "umaze__restricted__iql__s3": {
+      "train": [
+        0,
+        326.70198569999775
+      ],
+      "evaluate": [
+        0,
+        21.34955590000027
+      ]
+    },
+    "umaze__uniform__iql__s3": {
+      "train": [
+        0,
+        330.38274329999695
+      ],
+      "evaluate": [
+        0,
+        20.537829599998076
+      ]
+    },
+    "medium__full__bc__s3": {
+      "train": [
+        0,
+        98.3850331000067
+      ],
+      "evaluate": [
+        0,
+        50.003339900002175
+      ]
+    },
+    "medium__restricted__bc__s3": {
+      "train": [
+        0,
+        98.48361920000025
+      ],
+      "evaluate": [
+        0,
+        50.302699299994856
+      ]
+    },
+    "medium__uniform__bc__s3": {
+      "train": [
+        0,
+        98.21887679999782
+      ],
+      "evaluate": [
+        0,
+        51.36291299999721
+      ]
+    },
+    "umaze__full__bc__s3": {
+      "train": [
+        0,
+        98.76085279999825
+      ],
+      "evaluate": [
+        0,
+        19.763907399996242
+      ]
+    },
+    "umaze__restricted__bc__s3": {
+      "train": [
+        0,
+        97.67414910000662
+      ],
+      "evaluate": [
+        0,
+        20.387409399998432
+      ]
+    },
+    "umaze__uniform__bc__s3": {
+      "train": [
+        0,
+        97.67031459999998
+      ],
+      "evaluate": [
+        0,
+        20.293401899994933
+      ]
+    },
+    "medium__full__iql__s4": {
+      "train": [
+        0,
+        326.68475339999713
+      ],
+      "evaluate": [
+        0,
+        52.344374700005574
+      ]
+    },
+    "medium__restricted__iql__s4": {
+      "train": [
+        0,
+        326.65025039999455
+      ],
+      "evaluate": [
+        0,
+        52.298374400001194
+      ]
+    },
+    "medium__uniform__iql__s4": {
+      "train": [
+        0,
+        327.5397266
+      ],
+      "evaluate": [
+        0,
+        50.27616799999669
+      ]
+    },
+    "umaze__full__iql__s4": {
+      "train": [
+        0,
+        327.45192379999935
+      ],
+      "evaluate": [
+        0,
+        19.854631700000027
+      ]
+    },
+    "umaze__restricted__iql__s4": {
+      "train": [
+        0,
+        329.0719073
+      ],
+      "evaluate": [
+        0,
+        22.634721000002173
+      ]
+    },
+    "umaze__uniform__iql__s4": {
+      "train": [
+        0,
+        329.8721949999963
+      ],
+      "evaluate": [
+        0,
+        20.56181650000508
+      ]
+    },
+    "medium__full__bc__s4": {
+      "train": [
+        0,
+        97.92503929999657
+      ],
+      "evaluate": [
+        0,
+        50.70256170000357
+      ]
+    },
+    "medium__restricted__bc__s4": {
+      "train": [
+        0,
+        97.69688550000137
+      ],
+      "evaluate": [
+        0,
+        50.59487490000174
+      ]
+    },
+    "medium__uniform__bc__s4": {
+      "train": [
+        0,
+        97.1825508999973
+      ],
+      "evaluate": [
+        0,
+        50.850192400001106
+      ]
+    },
+    "umaze__full__bc__s4": {
+      "train": [
+        0,
+        97.73063140000158
+      ],
+      "evaluate": [
+        0,
+        19.979383400001097
+      ]
+    },
+    "umaze__restricted__bc__s4": {
+      "train": [
+        0,
+        97.96047120000003
+      ],
+      "evaluate": [
+        0,
+        20.277756399998907
+      ]
+    },
+    "umaze__uniform__bc__s4": {
+      "train": [
+        0,
+        97.95633299999463
+      ],
+      "evaluate": [
+        0,
+        20.715451399999438
+      ]
+    },
+    "medium__restricted_severe__iql__s0": {
+      "train": [
+        0,
+        326.88583890000154
+      ],
+      "evaluate": [
+        0,
+        51.11785509999754
+      ]
+    },
+    "medium__uniform_severe__iql__s0": {
+      "train": [
+        0,
+        327.2080386000016
+      ],
+      "evaluate": [
+        0,
+        51.06444160000683
+      ]
+    },
+    "umaze__restricted_severe__iql__s0": {
+      "train": [
+        0,
+        327.65658489999623
+      ],
+      "evaluate": [
+        0,
+        20.441078600000765
+      ]
+    },
+    "umaze__uniform_severe__iql__s0": {
+      "train": [
+        0,
+        326.711787799999
+      ],
+      "evaluate": [
+        0,
+        19.940899999994144
+      ]
+    },
+    "medium__restricted_severe__bc__s0": {
+      "train": [
+        0,
+        97.66282969999884
+      ],
+      "evaluate": [
+        0,
+        50.294667299996945
+      ]
+    },
+    "medium__uniform_severe__bc__s0": {
+      "train": [
+        0,
+        97.98389440000028
+      ],
+      "evaluate": [
+        0,
+        50.34741010000289
+      ]
+    },
+    "umaze__restricted_severe__bc__s0": {
+      "train": [
+        0,
+        98.53282719999697
+      ],
+      "evaluate": [
+        0,
+        20.552513299997372
+      ]
+    },
+    "umaze__uniform_severe__bc__s0": {
+      "train": [
+        0,
+        97.79019349999726
+      ],
+      "evaluate": [
+        0,
+        20.495757600001525
+      ]
+    },
+    "medium__restricted_severe__iql__s1": {
+      "train": [
+        0,
+        326.68911449999723
+      ],
+      "evaluate": [
+        0,
+        52.858690499997465
+      ]
+    },
+    "medium__uniform_severe__iql__s1": {
+      "train": [
+        0,
+        323.7314302999948
+      ],
+      "evaluate": [
+        0,
+        50.57463660000212
+      ]
+    },
+    "umaze__restricted_severe__iql__s1": {
+      "train": [
+        0,
+        320.13235220000206
+      ],
+      "evaluate": [
+        0,
+        20.2117866999979
+      ]
+    },
+    "umaze__uniform_severe__iql__s1": {
+      "train": [
+        0,
+        319.4539836999975
+      ],
+      "evaluate": [
+        0,
+        20.041226900000765
+      ]
+    },
+    "medium__restricted_severe__bc__s1": {
+      "train": [
+        0,
+        96.15301899999758
+      ],
+      "evaluate": [
+        0,
+        49.140319300000556
+      ]
+    },
+    "medium__uniform_severe__bc__s1": {
+      "train": [
+        0,
+        96.94628809999995
+      ],
+      "evaluate": [
+        0,
+        50.01636190000136
+      ]
+    },
+    "umaze__restricted_severe__bc__s1": {
+      "train": [
+        0,
+        95.48991570000362
+      ],
+      "evaluate": [
+        0,
+        20.436174700000265
+      ]
+    },
+    "umaze__uniform_severe__bc__s1": {
+      "train": [
+        0,
+        95.53636079999706
+      ],
+      "evaluate": [
+        0,
+        19.98511110000254
+      ]
+    },
+    "medium__restricted_severe__iql__s2": {
+      "train": [
+        0,
+        319.3121508999975
+      ],
+      "evaluate": [
+        0,
+        51.01097260000097
+      ]
+    },
+    "medium__uniform_severe__iql__s2": {
+      "train": [
+        0,
+        318.70428799999354
+      ],
+      "evaluate": [
+        0,
+        49.53480919999856
+      ]
+    },
+    "umaze__restricted_severe__iql__s2": {
+      "train": [
+        0,
+        319.11297339999874
+      ],
+      "evaluate": [
+        0,
+        19.705573500003084
+      ]
+    },
+    "umaze__uniform_severe__iql__s2": {
+      "train": [
+        0,
+        319.0824025999973
+      ],
+      "evaluate": [
+        0,
+        20.762500999997428
+      ]
+    },
+    "medium__restricted_severe__bc__s2": {
+      "train": [
+        0,
+        95.35552969999844
+      ],
+      "evaluate": [
+        0,
+        49.754591800003254
+      ]
+    },
+    "medium__uniform_severe__bc__s2": {
+      "train": [
+        0,
+        95.91194719999476
+      ],
+      "evaluate": [
+        0,
+        49.50312589999521
+      ]
+    },
+    "umaze__restricted_severe__bc__s2": {
+      "train": [
+        0,
+        95.30071329999919
+      ],
+      "evaluate": [
+        0,
+        19.785590799998317
+      ]
+    },
+    "umaze__uniform_severe__bc__s2": {
+      "train": [
+        0,
+        95.39578379999875
+      ],
+      "evaluate": [
+        0,
+        19.90463330000057
+      ]
+    },
+    "medium__restricted_severe__iql__s3": {
+      "train": [
+        0,
+        318.9824937000012
+      ],
+      "evaluate": [
+        0,
+        49.989104499996756
+      ]
+    },
+    "medium__uniform_severe__iql__s3": {
+      "train": [
+        0,
+        318.5631209999992
+      ],
+      "evaluate": [
+        0,
+        50.82755379999435
+      ]
+    },
+    "umaze__restricted_severe__iql__s3": {
+      "train": [
+        0,
+        319.5403662999961
+      ],
+      "evaluate": [
+        0,
+        19.59121320000122
+      ]
+    },
+    "umaze__uniform_severe__iql__s3": {
+      "train": [
+        0,
+        319.0305773
+      ],
+      "evaluate": [
+        0,
+        19.98373690000153
+      ]
+    },
+    "medium__restricted_severe__bc__s3": {
+      "train": [
+        0,
+        95.92592099999456
+      ],
+      "evaluate": [
+        0,
+        49.059796800000186
+      ]
+    },
+    "medium__uniform_severe__bc__s3": {
+      "train": [
+        0,
+        96.27271820000169
+      ],
+      "evaluate": [
+        0,
+        49.48006439999881
+      ]
+    },
+    "umaze__restricted_severe__bc__s3": {
+      "train": [
+        0,
+        95.62156289999984
+      ],
+      "evaluate": [
+        0,
+        19.99942409999494
+      ]
+    },
+    "umaze__uniform_severe__bc__s3": {
+      "train": [
+        0,
+        95.25965719999658
+      ],
+      "evaluate": [
+        0,
+        19.642878899998323
+      ]
+    },
+    "medium__restricted_severe__iql__s4": {
+      "train": [
+        0,
+        318.7302933999963
+      ],
+      "evaluate": [
+        0,
+        50.696475700009614
+      ]
+    },
+    "medium__uniform_severe__iql__s4": {
+      "train": [
+        0,
+        319.134767800002
+      ],
+      "evaluate": [
+        0,
+        51.34302149999712
+      ]
+    },
+    "umaze__restricted_severe__iql__s4": {
+      "train": [
+        0,
+        319.3532500000001
+      ],
+      "evaluate": [
+        0,
+        19.695063700011815
+      ]
+    },
+    "umaze__uniform_severe__iql__s4": {
+      "train": [
+        0,
+        319.0323701000016
+      ],
+      "evaluate": [
+        0,
+        19.973650600004476
+      ]
+    },
+    "medium__restricted_severe__bc__s4": {
+      "train": [
+        0,
+        95.74377809998987
+      ],
+      "evaluate": [
+        0,
+        49.564649100007955
+      ]
+    },
+    "medium__uniform_severe__bc__s4": {
+      "train": [
+        0,
+        96.64155159999791
+      ],
+      "evaluate": [
+        0,
+        49.851848999998765
+      ]
+    },
+    "umaze__restricted_severe__bc__s4": {
+      "train": [
+        0,
+        95.74230250000255
+      ],
+      "evaluate": [
+        0,
+        20.807268500007922
+      ]
+    },
+    "umaze__uniform_severe__bc__s4": {
+      "train": [
+        0,
+        95.31239789999381
+      ],
+      "evaluate": [
+        0,
+        17.739893699996173
+      ]
+    }
+  },
+  "failed": [],
+  "finished_utc": "2026-11-22T02:58:41+00:00"
+}

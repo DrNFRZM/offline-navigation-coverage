@@ -1,0 +1,62 @@
+{
+  "tag": "umaze__uniform_severe__iql__s3",
+  "suite": "final",
+  "maze": "umaze",
+  "horizon": 300,
+  "n_episodes": 260,
+  "env_steps": 78000,
+  "eval_seconds": 15.42285119999724,
+  "summary": {
+    "pairs": {
+      "n_episodes": 210,
+      "success_rate": 1.0,
+      "success_rate_third_horizon": 0.9523809523809523,
+      "mean_return": 227.35238095238094,
+      "mean_final_distance": 0.2077724601380045,
+      "mean_first_success_step_successes": 47.69047619047619,
+      "median_first_success_step_censored": 44.0,
+      "mean_path_length_successes": 1.958262254720842
+    },
+    "benchmark": {
+      "n_episodes": 50,
+      "success_rate": 1.0,
+      "success_rate_third_horizon": 0.8,
+      "mean_return": 144.3,
+      "mean_final_distance": 0.3745569707756043,
+      "mean_first_success_step_successes": 68.6,
+      "median_first_success_step_censored": 75.5,
+      "mean_path_length_successes": 3.0402877537885233
+    },
+    "pairs_through": {
+      "n_episodes": 90,
+      "success_rate": 1.0,
+      "success_rate_third_horizon": 0.8888888888888888,
+      "mean_return": 203.0,
+      "mean_final_distance": 0.2110773355896198,
+      "mean_first_success_step_successes": 71.0,
+      "median_first_success_step_censored": 68.0,
+      "mean_path_length_successes": 3.137347909476582
+    },
+    "pairs_avoid": {
+      "n_episodes": 60,
+      "success_rate": 1.0,
+      "success_rate_third_horizon": 1.0,
+      "mean_return": 238.58333333333334,
+      "mean_final_distance": 0.19879588313686414,
+      "mean_first_success_step_successes": 27.816666666666666,
+      "median_first_success_step_censored": 23.0,
+      "mean_path_length_successes": 0.9172452503200847
+    },
+    "pairs_endpoint": {
+      "n_episodes": 60,
+      "success_rate": 1.0,
+      "success_rate_third_horizon": 1.0,
+      "mean_return": 252.65,
+      "mean_final_distance": 0.21179172396172194,
+      "mean_first_success_step_successes": 32.6,
+      "median_first_success_step_censored": 28.0,
+      "mean_path_length_successes": 1.2306507769879882
+    }
+  },
+  "finished_utc": "2026-11-22T02:24:40+00:00"
+}

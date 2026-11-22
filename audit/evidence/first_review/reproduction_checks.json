@@ -1,0 +1,212 @@
+{
+ "reeval": {
+  "runs": [
+   {
+    "run_id": "umaze__restricted__bc__s3",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "holdout_diag_max_abs_dev": 0.0,
+    "seconds": 15.6
+   },
+   {
+    "run_id": "umaze__full__iql__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "holdout_diag_max_abs_dev": 0.0,
+    "seconds": 15.2
+   },
+   {
+    "run_id": "medium__uniform__iql__s1",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "holdout_diag_max_abs_dev": 0.0,
+    "seconds": 45.4
+   },
+   {
+    "run_id": "medium__restricted__bc__s4",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "holdout_diag_max_abs_dev": 0.0,
+    "seconds": 45.0
+   },
+   {
+    "run_id": "medium__restricted_severe__iql__s2",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "holdout_diag_max_abs_dev": 0.0,
+    "seconds": 45.0
+   },
+   {
+    "run_id": "umaze__uniform_severe__bc__s1",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "holdout_diag_max_abs_dev": 0.0,
+    "seconds": 14.9
+   }
+  ],
+  "ok": true
+ },
+ "tables": {
+  "analyze_exit": 0,
+  "tables_compared": 20,
+  "tables_differing": [],
+  "figures_regenerated": 22,
+  "regenerated_not_in_saved": [],
+  "saved_not_from_analyze": [
+   "fig5b_failure_examples_cases.csv",
+   "fig5b_failure_examples_medium.pdf",
+   "fig5b_failure_examples_medium.png",
+   "fig5b_failure_examples_umaze.pdf",
+   "fig5b_failure_examples_umaze.png"
+  ],
+  "figure_names_consistent": true,
+  "ok": true
+ },
+ "smoke_rerun": {
+  "exit_codes": {
+   "prepare": 0,
+   "grid": 0,
+   "references": 0,
+   "analyze": 0,
+   "verify": 0
+  },
+  "manifest_selection_identical": true,
+  "runs": [
+   {
+    "run_id": "medium__full__bc__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "medium__full__iql__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "medium__restricted__bc__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "medium__restricted__iql__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "medium__restricted_severe__bc__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "medium__restricted_severe__iql__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "medium__uniform__bc__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "medium__uniform__iql__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "medium__uniform_severe__bc__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "medium__uniform_severe__iql__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "umaze__full__bc__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "umaze__full__iql__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "umaze__restricted__bc__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "umaze__restricted__iql__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "umaze__restricted_severe__bc__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "umaze__restricted_severe__iql__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "umaze__uniform__bc__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "umaze__uniform__iql__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "umaze__uniform_severe__bc__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   },
+   {
+    "run_id": "umaze__uniform_severe__iql__s0",
+    "episodes_identical": true,
+    "success_flips": 0,
+    "train_log_max_abs_dev": 0.0
+   }
+  ],
+  "runs_identical": 20,
+  "runs_total": 20,
+  "minutes": 4.2,
+  "ok": true
+ },
+ "cpu_job": {
+  "exit_codes": [
+   0,
+   0
+  ],
+  "device": "cpu",
+  "updates": 600,
+  "episodes_evaluated": 16,
+  "seconds": 24.7,
+  "ok": true
+ }
+}

@@ -1,0 +1,15 @@
+claim,where,documented,recomputed,ok
+medium BC success A/B/C/B2/C2,README evidence table,"[0.995, 0.984, 0.988, 0.976, 0.995]","[0.9954, 0.9837, 0.9883, 0.976, 0.9948]",True
+medium IQL success A/B/C/B2/C2,README evidence table,"[0.923, 0.923, 0.916, 0.919, 0.924]","[0.9231, 0.9234, 0.9157, 0.9194, 0.9237]",True
+medium BC fast-through A/B/C/B2/C2,README evidence table,"[0.296, 0.259, 0.293, 0.252, 0.309]","[0.2963, 0.2593, 0.2932, 0.2525, 0.3086]",True
+medium IQL fast-through A/B/C/B2/C2,README evidence table,"[0.827, 0.738, 0.8, 0.757, 0.817]","[0.8265, 0.7383, 0.8, 0.7568, 0.8173]",True
+B-C success medium BC / IQL,"README, note 6.2","[-0.005, 0.008]","[-0.0046, 0.0077]",True
+B-C success CI medium BC,"README, note 6.2","[-0.013, 0.003]","[-0.0126, 0.0031]",True
+B-C fast-through medium BC / IQL,note 6.3,"[-0.034, -0.062]","[-0.034, -0.0617]",True
+B2-C2 success medium BC,"README, note 6.3",[-0.019],[-0.0188],True
+B2-C2 fast-through medium BC / IQL,note 6.3,"[-0.056, -0.06]","[-0.0562, -0.0605]",True
+IQL-BC fast success medium A/B/C/B2,note 6.4,"[0.361, 0.351, 0.356, 0.357]","[0.3612, 0.3514, 0.356, 0.3566]",True
+"first-success steps full: U BC/IQL, M BC/IQL",note 6.1,"[65.1, 47.5, 212.9, 108.7]","[65.12, 47.5305, 212.9012, 108.725]",True
+medium IQL failure rate range (%),"README, abstract","[7.6, 8.4]","[7.6308, 8.4308]",True
+medium BC failure rate range (%),"README, abstract","[0.5, 2.4]","[0.4615, 2.4]",True
+in-cell holdout MSE medium BC C/B/B2,note 6.5,"[0.218, 0.532, 0.672]","[0.2178, 0.5324, 0.6725]",True
